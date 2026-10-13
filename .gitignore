@@ -1,0 +1,29 @@
+# Local client work and private agent state
+.personal-brand/
+Personal-Brand-Clients/
+clients/
+client.json
+*.jsonl
+drafts/
+analytics/
+validation/
+.codex/
+.claude/
+.env
+.env.*
+
+# Generated packages and Python caches
+*.zip
+*.skill
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+dist/
+
+# Local editor / OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
