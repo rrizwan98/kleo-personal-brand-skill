@@ -2,7 +2,7 @@
 name: kleo-personal-brand
 description: "Run Kleo/Kelo-inspired LinkedIn personal branding and ghostwriting for a founder, expert, or agency client. Understand their profile, product, audience and voice; maintain separate client memory; create positioning, content strategy, posts and performance reviews. Use for ongoing personal-brand work, LinkedIn ghostwriting, or a client's content engine."
 metadata:
-  version: "1.0.0"
+  version: "1.0.1"
   short-description: "Client-aware LinkedIn strategy and ghostwriting"
 ---
 

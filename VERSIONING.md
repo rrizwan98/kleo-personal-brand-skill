@@ -6,6 +6,7 @@
 |---|---|
 | `v0` | Retrospectively written initial design specification; no executable skill |
 | `v1.0.0` | Reconstructed initial implementation, with the exact reconstruction method documented in its spec |
+| `v1.0.1` | Current implementation imported from the local source package; writing-guide refinement |
 
 These commits were created while preparing this repository. Dates were not backdated. A reconstruction is not presented as a preserved original commit.
 
@@ -15,6 +16,7 @@ These commits were created while preparing this repository. Dates were not backd
 git tag --list
 git show v0:specs/v0.md
 git show v1.0.0:specs/v1.0.0.md
+git diff v1.0.0..v1.0.1 -- kleo-personal-brand/
 git switch --detach v1.0.0
 ```
 
@@ -29,3 +31,5 @@ git switch --detach v1.0.0
 Use patch versions for compatible corrections/refinements, minor versions for added compatible capabilities, and major versions for incompatible workflow or state-contract changes. A client-state schema change must describe migration requirements explicitly.
 
 Generated `.zip` and `.skill` archives are ignored by Git. Build them from the checked-out tag so the contents correspond to that version.
+
+The `main` branch starts at v1.0.1. For an existing clone, `git fetch --tags` makes these checkpoints available. Specifications and changelog entries describe behavior; Git tags let you inspect the corresponding source.

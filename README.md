@@ -2,7 +2,7 @@
 
 A reusable agent skill for LinkedIn personal branding and ghostwriting: understand an author and their offer, retain separate client context, develop strategy and write grounded content.
 
-Current version at this tag: **1.0.0 — reconstructed baseline**.
+Current version: **1.0.1**.
 
 This is an independent implementation informed by Kleo's public workflow. It is not affiliated with Kleo, does not include proprietary Kleo prompts, and does not claim measured 85% equivalence.
 
@@ -42,9 +42,12 @@ The initializer creates an empty local workspace; it does not scrape a profile o
 
 - [v0: initial design](specs/v0.md) — retrospective, design only.
 - [v1.0.0: executable baseline](specs/v1.0.0.md) — reconstructed from recorded changes.
+- [v1.0.1: writing refinement](specs/v1.0.1.md) — current implementation, informed by a public-demo reconstruction.
 - [Changelog](CHANGELOG.md) and [versioning/provenance](VERSIONING.md).
 
 Read the specification for the selected tag before comparing behavior. The repository records what was tested and what remains unmeasured.
+
+v1.0.1 improves the flow of news-led posts and separates unnecessary research-process detail from public copy while preserving attribution and uncertainty. The single public-demo comparison does not establish equivalence to Kleo. See the [validation record](docs/VALIDATION.md).
 
 ## Validate and package
 

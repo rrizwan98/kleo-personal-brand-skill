@@ -68,6 +68,8 @@ Pass 2 — voice: Read it against the client's guide and examples. Replace gener
 
 Pass 3 — reading experience: Check the opening, logical flow, line breaks, mobile readability, accessible formatting, grammar, CTA and exact requested length/format. Do not use decorative Unicode bold or artificial one-word lines by default. Respect the author's normal style.
 
+For a news-led LinkedIn post, build around one reader-relevant implication rather than narrating the research process. Keep the attribution and uncertainty needed to interpret a claim, but move calculation workings, source-access failures and repeated caveats into editorial notes. For example, identify a proposed cause as an analyst explanation in the public copy; explain missing datasets in the notes unless their absence changes the post's central claim. Prefer a small number of connected beats over a paragraph for every verified fact. Judge readability separately from factual completeness: a fully sourced draft can still need substantial compression.
+
 Finish earlier if all gates pass. If a pass exposes missing source material, mark the affected draft `needs-facts` or replace the unsupported angle. Never label unfinished placeholders ready to publish.
 
 ## Repurposing a transcript or long-form source
@@ -78,6 +80,6 @@ Write each post so it stands alone without claiming events absent from the sourc
 
 ## Deliverable format
 
-For one post, give the final clean draft with a short note only if the user needs to choose or verify something. For a batch, give an ID/title, purpose or schedule slot when useful, and the full body for every requested post. Source/quality notes belong outside the public copy. Provide visual direction or alternative hooks only when requested or materially useful.
+For one post, give the final clean draft with a short note only if the user needs to choose or verify something. For a batch, give an ID/title, purpose or schedule slot when useful, and the full body for every requested post. Source/quality notes belong outside the public copy. Keep necessary source attribution natural in the post; put supporting clickable references beside the draft or in its source notes when the destination does not render Markdown links. Include URLs in the post when the brief or reader's next action calls for them. Provide visual direction or alternative hooks only when requested or materially useful.
 
 After client edits, learn the durable preference if indicated, keep one-off changes local, and save the approved version. An unchanged draft is not automatically an approved voice sample or permission to publish.
