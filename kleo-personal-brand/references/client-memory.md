@@ -60,6 +60,8 @@ Knowledge status: `confirmed`, `reported`, `inferred`, `unknown`, `superseded`. 
 
 Post states are distinct: `idea`, `draft`, `needs-facts`, `ready-for-review`, `approved`, `scheduled`, `published`, `failed`, `unverified`. Never mark published based on a local draft, an approval, or clicking a button without confirmation.
 
+From v1.1.0, a Post may also store `library_version`, `template_id` (or `custom`), `opening_type`, `example_ids`, `selection_reason`, `adaptations` and `evidence_checks`. These optional fields track structure selection outside public copy; existing records need no migration. Example IDs reference general structural notes, never client facts. Read recent selections to avoid repetitive opening/structure combinations. See [template-library.md](template-library.md).
+
 ## Updating memory
 
 1. Interpret an explicit durable instruction (for example, a continuing tone rule or corrected current offer) as a scoped memory update. Save it without an extra confirmation unless the client/scope is ambiguous.

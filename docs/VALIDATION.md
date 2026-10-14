@@ -1,6 +1,29 @@
 # Validation record
 
-Recorded: 2026-10-13.
+Updated: 2026-10-14. Earlier records retain their original scope.
+
+## v1.1.0 library update
+
+| Check | Result |
+|---|---|
+| Portable unit suite | 28 passed: 14 existing initializer tests and 14 selector/provenance tests |
+| Evidence-filter regressions | Unsupported client results and missing stories excluded; an empty evidence set produces an honest empty shortlist |
+| Retrieval behavior | Reader/pillar fit, recent template/opening penalties, deterministic ties, 1–5 result bound and explicit invalid-input errors checked |
+| CLI portability | Runs from a different working directory and creates no files there |
+| Library integrity | 40 original template cards; 24 unique public-post links; eight authors; valid categories, unique IDs and example cross-references |
+| Package validator | Metadata, references, Python syntax, no client state, entrypoint length, library schema and version alignment pass; 15 skill files |
+| Writing exercise | Three identical fictional briefs, six retained drafts, selector traces and qualitative comparison |
+| Format checks | All six drafts meet 120–170 words, omit hashtags and do not include the unsupported efficiency figure |
+| Creator maintenance | Persona, concrete decision questions and constraint/reason/application principles reviewed against the scenario outputs |
+| Distribution | ZIP and `.skill` archives built and integrity-checked; all 15 packaged files match both the installed skill and desktop source copy byte-for-byte |
+| Version preservation | Previous local v1.0.1 files and archives backed up before installation; existing published version tags retained |
+| Repository document review | All local Markdown targets resolve, whitespace check passes and the public-content scan found no private client paths/records or credential-pattern matches |
+
+See [comparison, all six drafts and limitations](../evals/v1.1.0/comparison.md), [briefs](../evals/v1.1.0/briefs.json), [selection traces](../evals/v1.1.0/selection-traces.json) and [source index](../kleo-personal-brand/library/INDEX.md).
+
+Source verification means public post text and displayed author were observed with the web tool. It does not verify every source claim, metric, current availability, true authorship or use of Kleo. Some web responses are cached. Video examples are caption/public-transcript analyses; the videos were not watched. Dates are review dates, and exact post publication dates remain unknown. No third-party full posts, screenshots or template vault were packaged.
+
+This writing comparison was conducted by the same assistant with known conditions and a small fictional sample. It supports inspectable structure selection, not a measured improvement percentage, human preference or Kleo equivalence. The baseline was also strong; the leadership example had no clear winner. The first validation caught an omitted evidence tag, which was corrected before the passing run.
 
 ## Checks rerun for repository preparation
 

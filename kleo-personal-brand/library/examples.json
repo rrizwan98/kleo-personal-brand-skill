@@ -1,0 +1,741 @@
+{
+  "schema_version": 1,
+  "library_version": "1.1.0",
+  "curated_on": "2026-10-14",
+  "selection_method": "Purposive editorial sample of observable structures; not a performance-ranked or representative sample. Eight authors; English business/technology emphasis.",
+  "rights_note": "Linked source posts remain with their respective rights holders. No source-post body, image, comment archive or third-party template collection is bundled.",
+  "examples": [
+    {
+      "id": "E01",
+      "author": "April Dunford",
+      "label": "AI and the positioning decision",
+      "url": "https://www.linkedin.com/posts/aprildunford_should-you-re-position-your-product-for-ai-activity-7126246475277242368-u7sE",
+      "observed_on": "2026-10-14",
+      "published_at": null,
+      "access_scope": "public_page_text_via_web_tool",
+      "source_language": "English",
+      "structure_note": "Two decision questions separate customer value from a technology trend.",
+      "adaptable_principle": "Use explicit decision criteria before offering a recommendation.",
+      "limitations": "The author's claims and terminology are reference material, not the client's positioning.",
+      "goals": [
+        "education",
+        "authority"
+      ],
+      "pillars": [
+        "positioning",
+        "technology"
+      ],
+      "verification": {
+        "post_and_author_text_observed": true,
+        "claims_independently_verified": false,
+        "performance_verified": false,
+        "kleo_authorship_verified": false,
+        "video_watched": false
+      },
+      "metrics": null,
+      "reuse": "link_and_original_structural_analysis_only",
+      "quoted_text": null
+    },
+    {
+      "id": "E02",
+      "author": "April Dunford",
+      "label": "Sell the capability available now",
+      "url": "https://www.linkedin.com/posts/aprildunford_in-positioning-we-have-to-stay-focused-on-activity-7107051666381701120-Dutm",
+      "observed_on": "2026-10-14",
+      "published_at": null,
+      "access_scope": "public_page_text_via_web_tool",
+      "source_language": "English",
+      "structure_note": "A positioning principle is developed through the difference between an investor's future interest and a buyer's present need.",
+      "adaptable_principle": "Connect an abstract principle to a buyer's actual decision.",
+      "limitations": "Do not repeat present-tense product or economic claims from an old post without checking.",
+      "goals": [
+        "authority",
+        "demand"
+      ],
+      "pillars": [
+        "positioning",
+        "product"
+      ],
+      "verification": {
+        "post_and_author_text_observed": true,
+        "claims_independently_verified": false,
+        "performance_verified": false,
+        "kleo_authorship_verified": false,
+        "video_watched": false
+      },
+      "metrics": null,
+      "reuse": "link_and_original_structural_analysis_only",
+      "quoted_text": null
+    },
+    {
+      "id": "E03",
+      "author": "April Dunford",
+      "label": "Identify the customer's actual alternatives",
+      "url": "https://www.linkedin.com/posts/aprildunford_positioning-activity-7065308376557047808-A479",
+      "observed_on": "2026-10-14",
+      "published_at": null,
+      "access_scope": "public_page_text_via_web_tool",
+      "source_language": "English",
+      "structure_note": "A memorable problem definition leads to a distinction between current buyer alternatives and possible future competitors.",
+      "adaptable_principle": "Define the boundary of a comparison before recommending action.",
+      "limitations": "Use a fresh explanation; do not appropriate the author's distinctive label or claimed client observations.",
+      "goals": [
+        "authority",
+        "education"
+      ],
+      "pillars": [
+        "positioning",
+        "strategy"
+      ],
+      "verification": {
+        "post_and_author_text_observed": true,
+        "claims_independently_verified": false,
+        "performance_verified": false,
+        "kleo_authorship_verified": false,
+        "video_watched": false
+      },
+      "metrics": null,
+      "reuse": "link_and_original_structural_analysis_only",
+      "quoted_text": null
+    },
+    {
+      "id": "E04",
+      "author": "April Dunford",
+      "label": "Diagnose an apparent lack of differentiation",
+      "url": "https://www.linkedin.com/posts/aprildunford_one-of-the-most-common-questions-i-get-is-activity-7242555636188676097-b937",
+      "observed_on": "2026-10-14",
+      "published_at": null,
+      "access_scope": "public_page_text_via_web_tool",
+      "source_language": "English",
+      "structure_note": "A reader question is divided into two possible diagnoses, followed by explanations of why a team might miss existing value.",
+      "adaptable_principle": "Answer directly, then branch according to evidence instead of giving one universal prescription.",
+      "limitations": "The diagnoses are the author's view; they are not evidence about the current client.",
+      "goals": [
+        "education",
+        "demand"
+      ],
+      "pillars": [
+        "positioning"
+      ],
+      "verification": {
+        "post_and_author_text_observed": true,
+        "claims_independently_verified": false,
+        "performance_verified": false,
+        "kleo_authorship_verified": false,
+        "video_watched": false
+      },
+      "metrics": null,
+      "reuse": "link_and_original_structural_analysis_only",
+      "quoted_text": null
+    },
+    {
+      "id": "E05",
+      "author": "April Dunford",
+      "label": "Separate strategy, vision and current positioning",
+      "url": "https://www.linkedin.com/posts/aprildunford_positioning-should-not-drive-product-strategy-activity-7199789151532036096-o-ZQ",
+      "observed_on": "2026-10-14",
+      "published_at": null,
+      "access_scope": "public_page_text_via_web_tool",
+      "source_language": "English",
+      "structure_note": "A clear position is supported by two consequences and a distinction between present value and a future direction.",
+      "adaptable_principle": "Make reasoning inspectable by showing what a mistaken decision would change.",
+      "limitations": "Do not convert hypothetical future capabilities into shipped product claims.",
+      "goals": [
+        "authority",
+        "education"
+      ],
+      "pillars": [
+        "strategy",
+        "positioning"
+      ],
+      "verification": {
+        "post_and_author_text_observed": true,
+        "claims_independently_verified": false,
+        "performance_verified": false,
+        "kleo_authorship_verified": false,
+        "video_watched": false
+      },
+      "metrics": null,
+      "reuse": "link_and_original_structural_analysis_only",
+      "quoted_text": null
+    },
+    {
+      "id": "E06",
+      "author": "April Dunford",
+      "label": "A book announcement with a buyer problem",
+      "url": "https://www.linkedin.com/posts/aprildunford_positioning-salespitch-productmarketing-activity-7046485599754612736-f2Eb",
+      "observed_on": "2026-10-14",
+      "published_at": null,
+      "access_scope": "public_page_text_via_web_tool",
+      "source_language": "English",
+      "structure_note": "The announcement connects earlier work to a remaining buyer problem, then explains the purpose of the new book.",
+      "adaptable_principle": "Explain why an offer exists before asking for attention.",
+      "limitations": "Book dates, experience and customer claims belong to the source author; launch timing is historical.",
+      "goals": [
+        "demand"
+      ],
+      "pillars": [
+        "positioning",
+        "product"
+      ],
+      "verification": {
+        "post_and_author_text_observed": true,
+        "claims_independently_verified": false,
+        "performance_verified": false,
+        "kleo_authorship_verified": false,
+        "video_watched": false
+      },
+      "metrics": null,
+      "reuse": "link_and_original_structural_analysis_only",
+      "quoted_text": null
+    },
+    {
+      "id": "E07",
+      "author": "Amanda Natividad",
+      "label": "Audience research as the mechanism behind a case",
+      "url": "https://www.linkedin.com/posts/amandanat_my-most-successful-content-marketing-strategy-activity-7378857438831292416-lYDD",
+      "observed_on": "2026-10-14",
+      "published_at": null,
+      "access_scope": "public_page_text_via_web_tool",
+      "source_language": "English",
+      "structure_note": "A first-person work example moves from reported outcomes to audience research practices, then to a relevant workshop invitation.",
+      "adaptable_principle": "Show the mechanism between an activity and a proposed lesson; make an invitation follow useful content.",
+      "limitations": "Reported business results were not independently audited. Never transfer them to a client or claim causal proof.",
+      "goals": [
+        "authority",
+        "demand"
+      ],
+      "pillars": [
+        "research",
+        "positioning"
+      ],
+      "verification": {
+        "post_and_author_text_observed": true,
+        "claims_independently_verified": false,
+        "performance_verified": false,
+        "kleo_authorship_verified": false,
+        "video_watched": false
+      },
+      "metrics": null,
+      "reuse": "link_and_original_structural_analysis_only",
+      "quoted_text": null
+    },
+    {
+      "id": "E08",
+      "author": "Amanda Natividad",
+      "label": "Career reintroduction through working beliefs",
+      "url": "https://www.linkedin.com/posts/amandanat_50000-of-you-time-for-a-re-introduction-activity-7292206456672600066-VSdw",
+      "observed_on": "2026-10-14",
+      "published_at": null,
+      "access_scope": "public_page_text_via_web_tool",
+      "source_language": "English",
+      "structure_note": "An audience milestone introduces a career path; selected experiences lead into working beliefs and a reader question.",
+      "adaptable_principle": "Use relevant biographical details to explain a point of view rather than listing credentials.",
+      "limitations": "The biography, milestone and role are historical source claims, not transferable facts.",
+      "goals": [
+        "trust"
+      ],
+      "pillars": [
+        "career",
+        "positioning"
+      ],
+      "verification": {
+        "post_and_author_text_observed": true,
+        "claims_independently_verified": false,
+        "performance_verified": false,
+        "kleo_authorship_verified": false,
+        "video_watched": false
+      },
+      "metrics": null,
+      "reuse": "link_and_original_structural_analysis_only",
+      "quoted_text": null
+    },
+    {
+      "id": "E09",
+      "author": "Jason Fried",
+      "label": "A product preview with unresolved work",
+      "url": "https://www.linkedin.com/posts/jason-fried_heres-the-first-preview-of-a-brand-new-product-activity-7326335017779896320-hg84",
+      "observed_on": "2026-10-14",
+      "published_at": null,
+      "access_scope": "public_page_text_via_web_tool",
+      "source_language": "English",
+      "structure_note": "The caption identifies a work-in-progress product, describes one view, acknowledges unknowns and invites questions.",
+      "adaptable_principle": "A real artifact can make progress concrete while preserving uncertainty.",
+      "limitations": "Only public caption/text was inspected; the video was not independently watched or product-tested.",
+      "goals": [
+        "trust",
+        "demand"
+      ],
+      "pillars": [
+        "product",
+        "technology"
+      ],
+      "verification": {
+        "post_and_author_text_observed": true,
+        "claims_independently_verified": false,
+        "performance_verified": false,
+        "kleo_authorship_verified": false,
+        "video_watched": false
+      },
+      "metrics": null,
+      "reuse": "link_and_original_structural_analysis_only",
+      "quoted_text": null
+    },
+    {
+      "id": "E10",
+      "author": "Jason Fried",
+      "label": "A demo experience becomes a product principle",
+      "url": "https://www.linkedin.com/posts/jason-fried_version-1-is-for-you-a-few-weeks-ago-i-was-activity-7254964958084415488-Mqh-",
+      "observed_on": "2026-10-14",
+      "published_at": null,
+      "access_scope": "public_page_text_via_web_tool",
+      "source_language": "English",
+      "structure_note": "A specific internal presentation leads to self-critique and an explanation of the author's product-development preference.",
+      "adaptable_principle": "Connect a real moment, a decision and a bounded personal principle.",
+      "limitations": "Do not copy the author's coined terminology, meeting scene or preference as the client's.",
+      "goals": [
+        "trust",
+        "authority"
+      ],
+      "pillars": [
+        "product",
+        "leadership"
+      ],
+      "verification": {
+        "post_and_author_text_observed": true,
+        "claims_independently_verified": false,
+        "performance_verified": false,
+        "kleo_authorship_verified": false,
+        "video_watched": false
+      },
+      "metrics": null,
+      "reuse": "link_and_original_structural_analysis_only",
+      "quoted_text": null
+    },
+    {
+      "id": "E11",
+      "author": "Jason Fried",
+      "label": "Defend a product focus through analogy",
+      "url": "https://www.linkedin.com/posts/jason-fried_from-time-to-time-we-get-criticized-for-making-activity-7354573212623523842-01em",
+      "observed_on": "2026-10-14",
+      "published_at": null,
+      "access_scope": "public_page_text_via_web_tool",
+      "source_language": "English",
+      "structure_note": "A criticism of repeated product categories is acknowledged before craft analogies are used to explain the author's perspective.",
+      "adaptable_principle": "Treat an objection fairly and use an original analogy to clarify a deliberate choice.",
+      "limitations": "Quoted collaborators, distinctive analogies and personal motivation remain the source author's.",
+      "goals": [
+        "authority"
+      ],
+      "pillars": [
+        "product",
+        "strategy"
+      ],
+      "verification": {
+        "post_and_author_text_observed": true,
+        "claims_independently_verified": false,
+        "performance_verified": false,
+        "kleo_authorship_verified": false,
+        "video_watched": false
+      },
+      "metrics": null,
+      "reuse": "link_and_original_structural_analysis_only",
+      "quoted_text": null
+    },
+    {
+      "id": "E12",
+      "author": "Jason Fried",
+      "label": "Disagreement as part of making a product",
+      "url": "https://www.linkedin.com/posts/jason-fried_ive-never-argued-with-an-ai-like-ive-argued-activity-7428944308059230208-uqFA",
+      "observed_on": "2026-10-14",
+      "published_at": null,
+      "access_scope": "public_page_text_via_web_tool",
+      "source_language": "English",
+      "structure_note": "A first-person comparison leads into a view about human disagreement and product work, supported by a named collaboration.",
+      "adaptable_principle": "A supported personal stance can end on a clear principle without an engagement question.",
+      "limitations": "This is a viewpoint, not a measured claim about AI or an experience the client can inherit.",
+      "goals": [
+        "trust",
+        "conversation"
+      ],
+      "pillars": [
+        "leadership",
+        "product"
+      ],
+      "verification": {
+        "post_and_author_text_observed": true,
+        "claims_independently_verified": false,
+        "performance_verified": false,
+        "kleo_authorship_verified": false,
+        "video_watched": false
+      },
+      "metrics": null,
+      "reuse": "link_and_original_structural_analysis_only",
+      "quoted_text": null
+    },
+    {
+      "id": "E13",
+      "author": "Molly Graham",
+      "label": "A management bottleneck reveals unclear criteria",
+      "url": "https://www.linkedin.com/posts/mograham_all-of-us-have-had-that-manager-the-one-activity-7492913055585091585-cDkl",
+      "observed_on": "2026-10-14",
+      "published_at": null,
+      "access_scope": "public_page_text_via_web_tool",
+      "source_language": "English",
+      "structure_note": "A recognizable management problem introduces an attributed guest example and a lesson about making judgment explicit.",
+      "adaptable_principle": "Keep the speaker and experience owner clear when turning an interview into a lesson.",
+      "limitations": "The guest's experience is attributed; the client did not necessarily have this conversation.",
+      "goals": [
+        "education",
+        "conversation"
+      ],
+      "pillars": [
+        "leadership",
+        "operations"
+      ],
+      "verification": {
+        "post_and_author_text_observed": true,
+        "claims_independently_verified": false,
+        "performance_verified": false,
+        "kleo_authorship_verified": false,
+        "video_watched": false
+      },
+      "metrics": null,
+      "reuse": "link_and_original_structural_analysis_only",
+      "quoted_text": null
+    },
+    {
+      "id": "E14",
+      "author": "Molly Graham",
+      "label": "An operator community explained through real decisions",
+      "url": "https://www.linkedin.com/posts/mograham_most-leadership-advice-is-abstract-strategy-activity-7437135950478123010-UZTS",
+      "observed_on": "2026-10-14",
+      "published_at": null,
+      "access_scope": "public_page_text_via_web_tool",
+      "source_language": "English",
+      "structure_note": "Concrete leadership questions make the need for a community specific before an application invitation.",
+      "adaptable_principle": "Describe the situations an offer helps with and connect the next step to those situations.",
+      "limitations": "The cohort deadline and offer availability are historical, not current recommendations.",
+      "goals": [
+        "demand"
+      ],
+      "pillars": [
+        "leadership",
+        "customer_experience"
+      ],
+      "verification": {
+        "post_and_author_text_observed": true,
+        "claims_independently_verified": false,
+        "performance_verified": false,
+        "kleo_authorship_verified": false,
+        "video_watched": false
+      },
+      "metrics": null,
+      "reuse": "link_and_original_structural_analysis_only",
+      "quoted_text": null
+    },
+    {
+      "id": "E15",
+      "author": "Molly Graham",
+      "label": "Where to invest management attention",
+      "url": "https://www.linkedin.com/posts/mograham_most-managers-see-high-performers-and-just-activity-7126206386513858560-Ln1l",
+      "observed_on": "2026-10-14",
+      "published_at": null,
+      "access_scope": "public_page_text_via_web_tool",
+      "source_language": "English",
+      "structure_note": "A common management approach is challenged with the author's stated priority and reasoning about growth opportunities.",
+      "adaptable_principle": "Link an explicit working belief to a concrete allocation of attention.",
+      "limitations": "Career outcomes and retention implications are source assertions, not independently established causal findings.",
+      "goals": [
+        "authority"
+      ],
+      "pillars": [
+        "leadership",
+        "career"
+      ],
+      "verification": {
+        "post_and_author_text_observed": true,
+        "claims_independently_verified": false,
+        "performance_verified": false,
+        "kleo_authorship_verified": false,
+        "video_watched": false
+      },
+      "metrics": null,
+      "reuse": "link_and_original_structural_analysis_only",
+      "quoted_text": null
+    },
+    {
+      "id": "E16",
+      "author": "Molly Graham",
+      "label": "Separate a difficult decision from its handling",
+      "url": "https://www.linkedin.com/posts/mograham_one-of-the-hardest-and-most-essential-activity-7425208730780192768-kut7",
+      "observed_on": "2026-10-14",
+      "published_at": null,
+      "access_scope": "public_page_text_via_web_tool",
+      "source_language": "English",
+      "structure_note": "A difficult organizational decision is normalized, then contrasted with the care or carelessness of its execution.",
+      "adaptable_principle": "Make room for an unavoidable decision while specifying the responsibilities around it.",
+      "limitations": "No named employee situation was independently verified; do not invent an analogous client story.",
+      "goals": [
+        "trust",
+        "education"
+      ],
+      "pillars": [
+        "leadership",
+        "career"
+      ],
+      "verification": {
+        "post_and_author_text_observed": true,
+        "claims_independently_verified": false,
+        "performance_verified": false,
+        "kleo_authorship_verified": false,
+        "video_watched": false
+      },
+      "metrics": null,
+      "reuse": "link_and_original_structural_analysis_only",
+      "quoted_text": null
+    },
+    {
+      "id": "E17",
+      "author": "Katelyn Bourgoin",
+      "label": "A compact buyer-understanding argument",
+      "url": "https://www.linkedin.com/posts/katebour_want-more-customers-share-something-revelatory-activity-7466099984392671233-HQUE",
+      "observed_on": "2026-10-14",
+      "published_at": null,
+      "access_scope": "public_page_text_via_web_tool",
+      "source_language": "English",
+      "structure_note": "A short reader question is followed by a proposed relationship between recognition, trust and purchase.",
+      "adaptable_principle": "A narrow point can work as a compact post without a long list or story.",
+      "limitations": "The trust-to-sales link is an argument, not a measured conversion guarantee.",
+      "goals": [
+        "education"
+      ],
+      "pillars": [
+        "positioning"
+      ],
+      "verification": {
+        "post_and_author_text_observed": true,
+        "claims_independently_verified": false,
+        "performance_verified": false,
+        "kleo_authorship_verified": false,
+        "video_watched": false
+      },
+      "metrics": null,
+      "reuse": "link_and_original_structural_analysis_only",
+      "quoted_text": null
+    },
+    {
+      "id": "E18",
+      "author": "Katelyn Bourgoin",
+      "label": "A future goal leads into learned priorities",
+      "url": "https://www.linkedin.com/posts/katebour_2025-was-my-best-year-in-business-yet-this-activity-7411383011574931456-_dng",
+      "observed_on": "2026-10-14",
+      "published_at": null,
+      "access_scope": "public_page_text_via_web_tool",
+      "source_language": "English",
+      "structure_note": "A stated business goal and retrospective context introduce a numbered set of audience-building lessons.",
+      "adaptable_principle": "Keep future intention separate from reported history, then tie reflection to practical priorities.",
+      "limitations": "Revenue targets, audience counts and personal history are unverified source assertions; do not copy them.",
+      "goals": [
+        "trust"
+      ],
+      "pillars": [
+        "career",
+        "strategy"
+      ],
+      "verification": {
+        "post_and_author_text_observed": true,
+        "claims_independently_verified": false,
+        "performance_verified": false,
+        "kleo_authorship_verified": false,
+        "video_watched": false
+      },
+      "metrics": null,
+      "reuse": "link_and_original_structural_analysis_only",
+      "quoted_text": null
+    },
+    {
+      "id": "E19",
+      "author": "Katelyn Bourgoin",
+      "label": "A reader problem introduces relevant experts",
+      "url": "https://www.linkedin.com/posts/katebour_competitors-can-steal-your-customers-but-activity-7187130560216018945-cqvl",
+      "observed_on": "2026-10-14",
+      "published_at": null,
+      "access_scope": "public_page_text_via_web_tool",
+      "source_language": "English",
+      "structure_note": "A warning about buyer indifference leads to a curated set of people, with a reason to consider each.",
+      "adaptable_principle": "Make curation useful by giving selection criteria and reader-specific reasons.",
+      "limitations": "Source endorsements are not the client's endorsements; verify current resources before recommending.",
+      "goals": [
+        "conversation"
+      ],
+      "pillars": [
+        "positioning",
+        "research"
+      ],
+      "verification": {
+        "post_and_author_text_observed": true,
+        "claims_independently_verified": false,
+        "performance_verified": false,
+        "kleo_authorship_verified": false,
+        "video_watched": false
+      },
+      "metrics": null,
+      "reuse": "link_and_original_structural_analysis_only",
+      "quoted_text": null
+    },
+    {
+      "id": "E20",
+      "author": "Rand Fishkin",
+      "label": "Clarify the implications of a marketing change",
+      "url": "https://www.linkedin.com/posts/randfishkin_does-a-zero-click-web-mean-theres-activity-7330472234509111297-E9d9",
+      "observed_on": "2026-10-14",
+      "published_at": null,
+      "access_scope": "public_page_text_via_web_tool",
+      "source_language": "English",
+      "structure_note": "The caption lists possible overreactions to a change, rejects them and introduces adaptation as the topic.",
+      "adaptable_principle": "Separate a real change from conclusions that do not follow from it.",
+      "limitations": "Caption and public transcript text were inspected; the video was not watched and claims need fresh verification.",
+      "goals": [
+        "education",
+        "conversation"
+      ],
+      "pillars": [
+        "technology",
+        "strategy"
+      ],
+      "verification": {
+        "post_and_author_text_observed": true,
+        "claims_independently_verified": false,
+        "performance_verified": false,
+        "kleo_authorship_verified": false,
+        "video_watched": false
+      },
+      "metrics": null,
+      "reuse": "link_and_original_structural_analysis_only",
+      "quoted_text": null
+    },
+    {
+      "id": "E21",
+      "author": "Rand Fishkin",
+      "label": "Explain confusion about a research result",
+      "url": "https://www.linkedin.com/posts/randfishkin_confused-skeptical-in-utter-disbelief-that-activity-7213973296545943552-bzcy",
+      "observed_on": "2026-10-14",
+      "published_at": null,
+      "access_scope": "public_page_text_via_web_tool",
+      "source_language": "English",
+      "structure_note": "The caption addresses confusion about a published study; the available transcript explains measurements and points toward methodology.",
+      "adaptable_principle": "Treat a disputed number as a prompt to clarify units, scope and method.",
+      "limitations": "The study was not independently replicated; transcript wording can contain errors and figures are historical.",
+      "goals": [
+        "education",
+        "authority"
+      ],
+      "pillars": [
+        "research"
+      ],
+      "verification": {
+        "post_and_author_text_observed": true,
+        "claims_independently_verified": false,
+        "performance_verified": false,
+        "kleo_authorship_verified": false,
+        "video_watched": false
+      },
+      "metrics": null,
+      "reuse": "link_and_original_structural_analysis_only",
+      "quoted_text": null
+    },
+    {
+      "id": "E22",
+      "author": "Rand Fishkin",
+      "label": "Preview an educational resource by its questions",
+      "url": "https://www.linkedin.com/posts/randfishkin_new-5-minute-whiteboard-zero-click-marketing-activity-7090594755318861824-t154",
+      "observed_on": "2026-10-14",
+      "published_at": null,
+      "access_scope": "public_page_text_via_web_tool",
+      "source_language": "English",
+      "structure_note": "A resource announcement lists the questions the lesson covers and identifies its format.",
+      "adaptable_principle": "State the learning job of a resource so the reader can judge relevance.",
+      "limitations": "Do not adopt source claims about platform algorithms or link placement as current rules.",
+      "goals": [
+        "education",
+        "demand"
+      ],
+      "pillars": [
+        "research",
+        "positioning"
+      ],
+      "verification": {
+        "post_and_author_text_observed": true,
+        "claims_independently_verified": false,
+        "performance_verified": false,
+        "kleo_authorship_verified": false,
+        "video_watched": false
+      },
+      "metrics": null,
+      "reuse": "link_and_original_structural_analysis_only",
+      "quoted_text": null
+    },
+    {
+      "id": "E23",
+      "author": "Gergely Orosz",
+      "label": "Connect a technology claim to an organizational decision",
+      "url": "https://www.linkedin.com/posts/gergelyorosz_we-see-that-ai-tools-amplify-good-engineering-activity-7467891380305072128-n0xR",
+      "observed_on": "2026-10-14",
+      "published_at": null,
+      "access_scope": "public_page_text_via_web_tool",
+      "source_language": "English",
+      "structure_note": "A view about AI and engineering culture is connected to the role of management and a pointed organizational question.",
+      "adaptable_principle": "Make the practical tension explicit rather than ending with generic agreement bait.",
+      "limitations": "The organizational prediction is a viewpoint; no causal study or particular company diagnosis was verified.",
+      "goals": [
+        "authority",
+        "conversation"
+      ],
+      "pillars": [
+        "leadership",
+        "technology"
+      ],
+      "verification": {
+        "post_and_author_text_observed": true,
+        "claims_independently_verified": false,
+        "performance_verified": false,
+        "kleo_authorship_verified": false,
+        "video_watched": false
+      },
+      "metrics": null,
+      "reuse": "link_and_original_structural_analysis_only",
+      "quoted_text": null
+    },
+    {
+      "id": "E24",
+      "author": "Lenny Rachitsky",
+      "label": "Introduce a guest's idea with clear attribution",
+      "url": "https://www.linkedin.com/posts/lennyrachitsky_anthropics-head-of-product-for-ai-research-activity-7488612981338025985-g8CD",
+      "observed_on": "2026-10-14",
+      "published_at": null,
+      "access_scope": "public_page_text_via_web_tool",
+      "source_language": "English",
+      "structure_note": "A short caption attributes an idea to an interview guest; the public transcript expands the product-work context.",
+      "adaptable_principle": "A repurposed interview needs clear ownership of the idea even when the caption is short.",
+      "limitations": "Text/transcript only; speaker wording may be transcribed imperfectly. No Kleo authorship was established.",
+      "goals": [
+        "conversation"
+      ],
+      "pillars": [
+        "leadership",
+        "technology"
+      ],
+      "verification": {
+        "post_and_author_text_observed": true,
+        "claims_independently_verified": false,
+        "performance_verified": false,
+        "kleo_authorship_verified": false,
+        "video_watched": false
+      },
+      "metrics": null,
+      "reuse": "link_and_original_structural_analysis_only",
+      "quoted_text": null
+    }
+  ]
+}

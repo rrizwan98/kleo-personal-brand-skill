@@ -1,0 +1,43 @@
+{
+  "library_version": "1.1.0",
+  "recorded_on": "2026-10-14",
+  "status": "fictional evaluation drafts; no publication or client approval",
+  "traces": [
+    {
+      "case": "founder",
+      "selector_input": {"goal": "education", "audience": "operator", "pillar": "operations", "evidence": ["process", "product"], "limit": 3},
+      "shortlist": ["T01", "T03", "T08"],
+      "template_id": "T01",
+      "opening_type": "decision_question",
+      "example_ids": ["E13"],
+      "selection_reason": "The brief is about decision ownership around an actual approval queue. T01 makes the review and exception responsibilities explicit without requiring customer results.",
+      "adaptations": "Use a direct observation as the opening instead of the card's suggested question to fit the calm voice. Describe workflow checks as recommendations, not product features. No sales CTA.",
+      "evidence_checks": {"process": ["F1", "F2"], "product": ["F1", "F2"], "results_excluded": ["F3"]},
+      "source_ownership_check": "E13 supplies only the distinction between a bottleneck and explicit decision criteria. No guest story or interview claim is transferred."
+    },
+    {
+      "case": "leader",
+      "selector_input": {"goal": "trust", "audience": "leader", "pillar": "leadership", "evidence": ["personal_story", "decision"], "limit": 3},
+      "shortlist": ["T19", "T20"],
+      "template_id": "T19",
+      "opening_type": "specific_moment",
+      "example_ids": ["E10"],
+      "selection_reason": "The supplied incident is a small management decision with a consequence and an untested next step. A career-turn template would overstate the event.",
+      "adaptations": "Use connected paragraphs with no bullets or CTA. Keep the upcoming trial explicitly unmeasured and avoid a dramatic redemption story.",
+      "evidence_checks": {"personal_story": ["L1", "L2"], "decision": ["L3", "L4"]},
+      "source_ownership_check": "E10 is a structural reference for incident-to-principle development; its company, meeting and coined product terminology are absent."
+    },
+    {
+      "case": "consultant",
+      "selector_input": {"goal": "demand", "audience": "agency_owner", "pillar": "customer_experience", "evidence": ["offer", "process"], "limit": 3},
+      "shortlist": ["T27", "T32", "T33"],
+      "template_id": "T27",
+      "opening_type": "fit_condition",
+      "example_ids": ["E14"],
+      "selection_reason": "The user wants a buyer fit decision. T27 joins an observable fit condition, supplied inputs, actual deliverable and explicit scope boundary.",
+      "adaptations": "Use the fixture's documents and 90-minute scope. One low-pressure invitation; no borrowed deadline, cohort, scarcity or promised business result.",
+      "evidence_checks": {"offer": ["C1", "C3", "C4", "C5"], "process": ["C2", "C3"]},
+      "source_ownership_check": "E14 informs problem-to-offer fit. No community offer, application deadline or source-client result is reused."
+    }
+  ]
+}

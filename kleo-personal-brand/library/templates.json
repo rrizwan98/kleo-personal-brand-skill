@@ -1,0 +1,1490 @@
+{
+  "schema_version": 1,
+  "library_version": "1.1.0",
+  "created_on": "2026-10-14",
+  "provenance": "Original editorial structures written for this project; no third-party template vault imported.",
+  "taxonomy": {
+    "goals": [
+      "education",
+      "authority",
+      "trust",
+      "demand",
+      "conversation"
+    ],
+    "audiences": [
+      "any",
+      "founder",
+      "operator",
+      "consultant",
+      "marketer",
+      "engineer",
+      "leader",
+      "agency_owner",
+      "designer",
+      "analyst",
+      "creator"
+    ],
+    "pillars": [
+      "any",
+      "operations",
+      "technology",
+      "positioning",
+      "strategy",
+      "research",
+      "leadership",
+      "product",
+      "customer_experience",
+      "career"
+    ],
+    "evidence": [
+      "reasoning",
+      "observation",
+      "process",
+      "product",
+      "offer",
+      "personal_story",
+      "decision",
+      "results",
+      "research",
+      "artifact",
+      "question",
+      "resource",
+      "opinion"
+    ]
+  },
+  "templates": [
+    {
+      "id": "T01",
+      "title": "Decision before automation",
+      "goals": [
+        "education"
+      ],
+      "audiences": [
+        "founder",
+        "operator"
+      ],
+      "pillars": [
+        "operations",
+        "technology"
+      ],
+      "required_evidence": [
+        "process"
+      ],
+      "opening_type": "decision_question",
+      "opening_instruction": "Ask which decision remains human when a routine step is automated.",
+      "beats": [
+        "Describe one routine handoff.",
+        "Separate the prepared output from the approval decision.",
+        "Name the reviewer and what they must check.",
+        "Explain who handles exceptions and where responsibility moves next."
+      ],
+      "ending": "Close with one ownership check.",
+      "avoid": "Do not imply the product enforces a rule unless that capability is documented.",
+      "example_ids": [
+        "E09",
+        "E13"
+      ],
+      "voice_adaptation": "Use the client's supported vocabulary, rhythm and stance. Beats are reasoning steps, not mandatory paragraphs; shorten, reorder or abandon them when the idea or explicit brief requires it.",
+      "origin": "original_project_authored",
+      "performance_status": "not_empirically_validated"
+    },
+    {
+      "id": "T02",
+      "title": "Symptom-to-cause diagnostic",
+      "goals": [
+        "education"
+      ],
+      "audiences": [
+        "consultant",
+        "operator",
+        "marketer"
+      ],
+      "pillars": [
+        "operations",
+        "positioning"
+      ],
+      "required_evidence": [
+        "reasoning"
+      ],
+      "opening_type": "symptom",
+      "opening_instruction": "Describe an observable symptom the reader can check for themselves.",
+      "beats": [
+        "Define the symptom without claiming it is universal.",
+        "Offer two plausible causes and a way to distinguish them.",
+        "Choose a small next check before prescribing a solution.",
+        "State what remains uncertain."
+      ],
+      "ending": "Invite the reader to inspect one real instance.",
+      "avoid": "Never diagnose a specific company's problem from an invented anecdote.",
+      "example_ids": [
+        "E04"
+      ],
+      "voice_adaptation": "Use the client's supported vocabulary, rhythm and stance. Beats are reasoning steps, not mandatory paragraphs; shorten, reorder or abandon them when the idea or explicit brief requires it.",
+      "origin": "original_project_authored",
+      "performance_status": "not_empirically_validated"
+    },
+    {
+      "id": "T03",
+      "title": "Small worked walkthrough",
+      "goals": [
+        "education"
+      ],
+      "audiences": [
+        "engineer",
+        "operator",
+        "consultant"
+      ],
+      "pillars": [
+        "technology",
+        "operations"
+      ],
+      "required_evidence": [
+        "process"
+      ],
+      "opening_type": "task",
+      "opening_instruction": "Name a bounded task and the output the reader will have.",
+      "beats": [
+        "State inputs and prerequisites.",
+        "Walk through the essential actions in order.",
+        "Explain the most consequential decision.",
+        "Show how to inspect the output."
+      ],
+      "ending": "Suggest trying the process on one low-risk example.",
+      "avoid": "Label any invented example hypothetical; do not claim a demo was executed.",
+      "example_ids": [
+        "E22"
+      ],
+      "voice_adaptation": "Use the client's supported vocabulary, rhythm and stance. Beats are reasoning steps, not mandatory paragraphs; shorten, reorder or abandon them when the idea or explicit brief requires it.",
+      "origin": "original_project_authored",
+      "performance_status": "not_empirically_validated"
+    },
+    {
+      "id": "T04",
+      "title": "Choice with two valid options",
+      "goals": [
+        "education"
+      ],
+      "audiences": [
+        "founder",
+        "leader",
+        "consultant"
+      ],
+      "pillars": [
+        "strategy",
+        "operations"
+      ],
+      "required_evidence": [
+        "reasoning"
+      ],
+      "opening_type": "tradeoff",
+      "opening_instruction": "Present two sensible approaches to one practical decision.",
+      "beats": [
+        "State the common goal.",
+        "Compare the constraints under which each option works.",
+        "Expose the cost each option accepts.",
+        "Offer a decision rule and an exception."
+      ],
+      "ending": "End with the constraint the reader should establish first.",
+      "avoid": "Do not manufacture a universal winner or competitor weakness.",
+      "example_ids": [
+        "E01"
+      ],
+      "voice_adaptation": "Use the client's supported vocabulary, rhythm and stance. Beats are reasoning steps, not mandatory paragraphs; shorten, reorder or abandon them when the idea or explicit brief requires it.",
+      "origin": "original_project_authored",
+      "performance_status": "not_empirically_validated"
+    },
+    {
+      "id": "T05",
+      "title": "Definition through a boundary",
+      "goals": [
+        "education"
+      ],
+      "audiences": [
+        "marketer",
+        "consultant",
+        "founder"
+      ],
+      "pillars": [
+        "positioning",
+        "strategy"
+      ],
+      "required_evidence": [
+        "reasoning"
+      ],
+      "opening_type": "definition",
+      "opening_instruction": "Identify two concepts readers can easily confuse.",
+      "beats": [
+        "Define each in plain words.",
+        "Use an explicitly illustrative situation to separate them.",
+        "Show how the distinction changes a decision.",
+        "Give a short test the reader can reuse."
+      ],
+      "ending": "End with the decision the distinction clarifies.",
+      "avoid": "Avoid reusing another author's coined phrasing as the client's invention.",
+      "example_ids": [
+        "E01",
+        "E05"
+      ],
+      "voice_adaptation": "Use the client's supported vocabulary, rhythm and stance. Beats are reasoning steps, not mandatory paragraphs; shorten, reorder or abandon them when the idea or explicit brief requires it.",
+      "origin": "original_project_authored",
+      "performance_status": "not_empirically_validated"
+    },
+    {
+      "id": "T06",
+      "title": "Answer a recurring question",
+      "goals": [
+        "education"
+      ],
+      "audiences": [
+        "any"
+      ],
+      "pillars": [
+        "any"
+      ],
+      "required_evidence": [
+        "question",
+        "process"
+      ],
+      "opening_type": "reader_question",
+      "opening_instruction": "Use a real reader question with identifying details removed when needed.",
+      "beats": [
+        "Answer the question directly.",
+        "Explain why the answer depends on context.",
+        "Demonstrate the process or reasoning.",
+        "Name the case where the answer changes."
+      ],
+      "ending": "Invite a specific clarification if useful.",
+      "avoid": "Do not invent a customer conversation or imply the question was frequent without evidence.",
+      "example_ids": [
+        "E04"
+      ],
+      "voice_adaptation": "Use the client's supported vocabulary, rhythm and stance. Beats are reasoning steps, not mandatory paragraphs; shorten, reorder or abandon them when the idea or explicit brief requires it.",
+      "origin": "original_project_authored",
+      "performance_status": "not_empirically_validated"
+    },
+    {
+      "id": "T07",
+      "title": "Read a result correctly",
+      "goals": [
+        "education"
+      ],
+      "audiences": [
+        "analyst",
+        "marketer",
+        "engineer"
+      ],
+      "pillars": [
+        "research",
+        "technology"
+      ],
+      "required_evidence": [
+        "research"
+      ],
+      "opening_type": "interpretation",
+      "opening_instruction": "Point to one sourced finding that readers could misread.",
+      "beats": [
+        "Attribute the finding and its population or scope.",
+        "Clarify the denominator, comparison or definition.",
+        "Explain one decision it can inform.",
+        "State what the finding cannot establish."
+      ],
+      "ending": "Link the primary methodology where it helps the reader.",
+      "avoid": "Do not treat correlation as causation or an old figure as current.",
+      "example_ids": [
+        "E21"
+      ],
+      "voice_adaptation": "Use the client's supported vocabulary, rhythm and stance. Beats are reasoning steps, not mandatory paragraphs; shorten, reorder or abandon them when the idea or explicit brief requires it.",
+      "origin": "original_project_authored",
+      "performance_status": "not_empirically_validated"
+    },
+    {
+      "id": "T08",
+      "title": "Prepare before adopting",
+      "goals": [
+        "education"
+      ],
+      "audiences": [
+        "operator",
+        "leader",
+        "founder"
+      ],
+      "pillars": [
+        "operations",
+        "technology"
+      ],
+      "required_evidence": [
+        "process"
+      ],
+      "opening_type": "readiness",
+      "opening_instruction": "Ask what must already be true before a proposed change can work.",
+      "beats": [
+        "Describe the intended change.",
+        "Identify its essential prerequisites.",
+        "Explain one failure caused by skipping a prerequisite.",
+        "Provide a readiness check and first repair."
+      ],
+      "ending": "End with a concrete check, not a promise of results.",
+      "avoid": "No fabricated implementation failure; mark a hypothetical failure as such.",
+      "example_ids": [
+        "E13",
+        "E23"
+      ],
+      "voice_adaptation": "Use the client's supported vocabulary, rhythm and stance. Beats are reasoning steps, not mandatory paragraphs; shorten, reorder or abandon them when the idea or explicit brief requires it.",
+      "origin": "original_project_authored",
+      "performance_status": "not_empirically_validated"
+    },
+    {
+      "id": "T09",
+      "title": "Correct the overreaction",
+      "goals": [
+        "education"
+      ],
+      "audiences": [
+        "marketer",
+        "founder",
+        "consultant"
+      ],
+      "pillars": [
+        "strategy",
+        "technology"
+      ],
+      "required_evidence": [
+        "research",
+        "reasoning"
+      ],
+      "opening_type": "misinterpretation",
+      "opening_instruction": "Name a supported change and a tempting overreaction.",
+      "beats": [
+        "Attribute what actually changed.",
+        "Distinguish a supported implication from an exaggerated conclusion.",
+        "Describe the activity that still has a useful role.",
+        "Give a practical adaptation."
+      ],
+      "ending": "Recommend one adjustment with a stated reason.",
+      "avoid": "Do not create a straw-man quote or claim everyone holds the misconception.",
+      "example_ids": [
+        "E20"
+      ],
+      "voice_adaptation": "Use the client's supported vocabulary, rhythm and stance. Beats are reasoning steps, not mandatory paragraphs; shorten, reorder or abandon them when the idea or explicit brief requires it.",
+      "origin": "original_project_authored",
+      "performance_status": "not_empirically_validated"
+    },
+    {
+      "id": "T10",
+      "title": "Map a handoff",
+      "goals": [
+        "education"
+      ],
+      "audiences": [
+        "operator",
+        "agency_owner",
+        "leader"
+      ],
+      "pillars": [
+        "operations",
+        "customer_experience"
+      ],
+      "required_evidence": [
+        "process"
+      ],
+      "opening_type": "handoff",
+      "opening_instruction": "Begin at the moment work passes from one person to another.",
+      "beats": [
+        "Identify sender, receiver and required input.",
+        "Describe the output that makes the handoff usable.",
+        "Name an unresolved-question owner.",
+        "Explain the response when the handoff is incomplete."
+      ],
+      "ending": "Ask the reader to trace one handoff.",
+      "avoid": "Describe proposed checks as recommendations, not existing product features.",
+      "example_ids": [
+        "E13"
+      ],
+      "voice_adaptation": "Use the client's supported vocabulary, rhythm and stance. Beats are reasoning steps, not mandatory paragraphs; shorten, reorder or abandon them when the idea or explicit brief requires it.",
+      "origin": "original_project_authored",
+      "performance_status": "not_empirically_validated"
+    },
+    {
+      "id": "T11",
+      "title": "A position with limits",
+      "goals": [
+        "authority"
+      ],
+      "audiences": [
+        "founder",
+        "consultant",
+        "leader"
+      ],
+      "pillars": [
+        "strategy",
+        "leadership"
+      ],
+      "required_evidence": [
+        "opinion",
+        "reasoning"
+      ],
+      "opening_type": "thesis",
+      "opening_instruction": "State the client's supported position in ordinary language.",
+      "beats": [
+        "Give the reasoning behind the position.",
+        "Recognize the strongest reasonable objection.",
+        "State the situation in which the objection wins.",
+        "Restate the bounded recommendation."
+      ],
+      "ending": "A clear conclusion can stand without a question.",
+      "avoid": "Do not borrow a source author's belief or confidence level as the client's.",
+      "example_ids": [
+        "E12",
+        "E23"
+      ],
+      "voice_adaptation": "Use the client's supported vocabulary, rhythm and stance. Beats are reasoning steps, not mandatory paragraphs; shorten, reorder or abandon them when the idea or explicit brief requires it.",
+      "origin": "original_project_authored",
+      "performance_status": "not_empirically_validated"
+    },
+    {
+      "id": "T12",
+      "title": "Current capability, future direction",
+      "goals": [
+        "authority"
+      ],
+      "audiences": [
+        "founder",
+        "marketer"
+      ],
+      "pillars": [
+        "positioning",
+        "product"
+      ],
+      "required_evidence": [
+        "product",
+        "decision"
+      ],
+      "opening_type": "boundary",
+      "opening_instruction": "Identify the difference between a current capability and a future intention.",
+      "beats": [
+        "Describe what is available now.",
+        "Explain why it matters to a particular buyer.",
+        "Separate the future direction from a present promise.",
+        "State how today's decision should be evaluated."
+      ],
+      "ending": "Invite evaluation of the current capability.",
+      "avoid": "Never sell a roadmap item as shipped or guaranteed.",
+      "example_ids": [
+        "E02",
+        "E05"
+      ],
+      "voice_adaptation": "Use the client's supported vocabulary, rhythm and stance. Beats are reasoning steps, not mandatory paragraphs; shorten, reorder or abandon them when the idea or explicit brief requires it.",
+      "origin": "original_project_authored",
+      "performance_status": "not_empirically_validated"
+    },
+    {
+      "id": "T13",
+      "title": "Measure the actual alternative",
+      "goals": [
+        "authority"
+      ],
+      "audiences": [
+        "marketer",
+        "consultant",
+        "founder"
+      ],
+      "pillars": [
+        "positioning",
+        "strategy"
+      ],
+      "required_evidence": [
+        "observation",
+        "reasoning"
+      ],
+      "opening_type": "alternative",
+      "opening_instruction": "Name an alternative customers actually consider, with evidence.",
+      "beats": [
+        "Explain the customer's decision in their terms.",
+        "Contrast this with an internally assumed competitor.",
+        "Identify which difference matters to the purchase.",
+        "Say when the comparison needs revisiting."
+      ],
+      "ending": "Suggest validating the shortlist with customer evidence.",
+      "avoid": "Do not infer competitor use or buyer preferences from market size.",
+      "example_ids": [
+        "E03"
+      ],
+      "voice_adaptation": "Use the client's supported vocabulary, rhythm and stance. Beats are reasoning steps, not mandatory paragraphs; shorten, reorder or abandon them when the idea or explicit brief requires it.",
+      "origin": "original_project_authored",
+      "performance_status": "not_empirically_validated"
+    },
+    {
+      "id": "T14",
+      "title": "An artifact and the reasoning",
+      "goals": [
+        "authority"
+      ],
+      "audiences": [
+        "engineer",
+        "consultant",
+        "designer"
+      ],
+      "pillars": [
+        "technology",
+        "operations"
+      ],
+      "required_evidence": [
+        "artifact",
+        "decision"
+      ],
+      "opening_type": "artifact",
+      "opening_instruction": "Introduce a real, shareable artifact and the decision it represents.",
+      "beats": [
+        "Explain the context in which it was made.",
+        "Point to one detail that matters.",
+        "Describe the tradeoff behind that detail.",
+        "Offer a transferable principle with its limits."
+      ],
+      "ending": "Link or show the authorized artifact if available.",
+      "avoid": "Redact private details; do not imply an unseen screenshot or demo exists.",
+      "example_ids": [
+        "E09"
+      ],
+      "voice_adaptation": "Use the client's supported vocabulary, rhythm and stance. Beats are reasoning steps, not mandatory paragraphs; shorten, reorder or abandon them when the idea or explicit brief requires it.",
+      "origin": "original_project_authored",
+      "performance_status": "not_empirically_validated"
+    },
+    {
+      "id": "T15",
+      "title": "A bounded research implication",
+      "goals": [
+        "authority"
+      ],
+      "audiences": [
+        "analyst",
+        "consultant",
+        "engineer"
+      ],
+      "pillars": [
+        "research",
+        "technology"
+      ],
+      "required_evidence": [
+        "research",
+        "reasoning"
+      ],
+      "opening_type": "finding",
+      "opening_instruction": "Open with the reader-facing implication of one sourced finding.",
+      "beats": [
+        "Attribute the research and important scope.",
+        "Explain a plausible mechanism as interpretation.",
+        "Connect it to one choice the reader controls.",
+        "Retain the uncertainty that affects that choice."
+      ],
+      "ending": "Offer one evidence-aligned experiment.",
+      "avoid": "No unsupported trend certainty or promise that one study generalizes.",
+      "example_ids": [
+        "E21",
+        "E23"
+      ],
+      "voice_adaptation": "Use the client's supported vocabulary, rhythm and stance. Beats are reasoning steps, not mandatory paragraphs; shorten, reorder or abandon them when the idea or explicit brief requires it.",
+      "origin": "original_project_authored",
+      "performance_status": "not_empirically_validated"
+    },
+    {
+      "id": "T16",
+      "title": "Explain a deliberate omission",
+      "goals": [
+        "authority"
+      ],
+      "audiences": [
+        "founder",
+        "designer",
+        "consultant"
+      ],
+      "pillars": [
+        "product",
+        "strategy"
+      ],
+      "required_evidence": [
+        "decision",
+        "product"
+      ],
+      "opening_type": "omission",
+      "opening_instruction": "Name a real feature or service the client has deliberately left out.",
+      "beats": [
+        "Describe the job the offer is designed to do.",
+        "Explain the constraint behind the omission.",
+        "Acknowledge the reader who needs the missing capability.",
+        "Define when the decision might change."
+      ],
+      "ending": "Clarify fit rather than criticize other choices.",
+      "avoid": "Do not invent an omission, roadmap or claimed customer benefit.",
+      "example_ids": [
+        "E10",
+        "E11"
+      ],
+      "voice_adaptation": "Use the client's supported vocabulary, rhythm and stance. Beats are reasoning steps, not mandatory paragraphs; shorten, reorder or abandon them when the idea or explicit brief requires it.",
+      "origin": "original_project_authored",
+      "performance_status": "not_empirically_validated"
+    },
+    {
+      "id": "T17",
+      "title": "Evidence-led case note",
+      "goals": [
+        "authority"
+      ],
+      "audiences": [
+        "consultant",
+        "agency_owner",
+        "founder"
+      ],
+      "pillars": [
+        "operations",
+        "customer_experience"
+      ],
+      "required_evidence": [
+        "results",
+        "process"
+      ],
+      "opening_type": "result",
+      "opening_instruction": "State a verified outcome with baseline, timeframe and scope.",
+      "beats": [
+        "Describe the starting situation and measurement.",
+        "Explain the intervention and other relevant changes.",
+        "Report the observed result with limits.",
+        "Extract one lesson and what it does not prove."
+      ],
+      "ending": "Offer a relevant next discussion only if supported.",
+      "avoid": "Requires client-owned publishable results; a template is never proof.",
+      "example_ids": [
+        "E07"
+      ],
+      "voice_adaptation": "Use the client's supported vocabulary, rhythm and stance. Beats are reasoning steps, not mandatory paragraphs; shorten, reorder or abandon them when the idea or explicit brief requires it.",
+      "origin": "original_project_authored",
+      "performance_status": "not_empirically_validated"
+    },
+    {
+      "id": "T18",
+      "title": "Surface the hidden assumption",
+      "goals": [
+        "authority"
+      ],
+      "audiences": [
+        "leader",
+        "engineer",
+        "consultant"
+      ],
+      "pillars": [
+        "leadership",
+        "strategy"
+      ],
+      "required_evidence": [
+        "reasoning",
+        "opinion"
+      ],
+      "opening_type": "assumption",
+      "opening_instruction": "State the assumption on which a common decision depends.",
+      "beats": [
+        "Explain why the assumption is attractive.",
+        "Describe a clearly marked counterexample or supported observation.",
+        "Show what changes if the assumption fails.",
+        "Offer a way to test it before committing."
+      ],
+      "ending": "End with the testable question.",
+      "avoid": "No invented research or claim of universal industry behavior.",
+      "example_ids": [
+        "E23"
+      ],
+      "voice_adaptation": "Use the client's supported vocabulary, rhythm and stance. Beats are reasoning steps, not mandatory paragraphs; shorten, reorder or abandon them when the idea or explicit brief requires it.",
+      "origin": "original_project_authored",
+      "performance_status": "not_empirically_validated"
+    },
+    {
+      "id": "T19",
+      "title": "Small mistake, next experiment",
+      "goals": [
+        "trust"
+      ],
+      "audiences": [
+        "leader",
+        "founder",
+        "operator"
+      ],
+      "pillars": [
+        "leadership",
+        "operations"
+      ],
+      "required_evidence": [
+        "personal_story",
+        "decision"
+      ],
+      "opening_type": "specific_moment",
+      "opening_instruction": "Begin with a small, real decision and its actual consequence.",
+      "beats": [
+        "Describe the incident without adding scenes or dialogue.",
+        "Own the specific decision that contributed.",
+        "Explain the rule or process being changed.",
+        "Separate the next experiment from results that do not yet exist."
+      ],
+      "ending": "An honest next step can be the ending.",
+      "avoid": "Do not manufacture a recovery, redemption arc or lesson already validated.",
+      "example_ids": [
+        "E10",
+        "E13"
+      ],
+      "voice_adaptation": "Use the client's supported vocabulary, rhythm and stance. Beats are reasoning steps, not mandatory paragraphs; shorten, reorder or abandon them when the idea or explicit brief requires it.",
+      "origin": "original_project_authored",
+      "performance_status": "not_empirically_validated"
+    },
+    {
+      "id": "T20",
+      "title": "A career turn and one lesson",
+      "goals": [
+        "trust"
+      ],
+      "audiences": [
+        "consultant",
+        "leader",
+        "founder"
+      ],
+      "pillars": [
+        "career",
+        "leadership"
+      ],
+      "required_evidence": [
+        "personal_story"
+      ],
+      "opening_type": "turning_point",
+      "opening_instruction": "Introduce one verified turning point rather than a complete biography.",
+      "beats": [
+        "Explain the prior situation in a few concrete details.",
+        "Describe the actual choice or constraint.",
+        "Connect the experience to one present working principle.",
+        "Acknowledge what is personal rather than universal."
+      ],
+      "ending": "Optionally ask about a similar decision.",
+      "avoid": "No invented adversity or transfer of the reference author's career.",
+      "example_ids": [
+        "E08"
+      ],
+      "voice_adaptation": "Use the client's supported vocabulary, rhythm and stance. Beats are reasoning steps, not mandatory paragraphs; shorten, reorder or abandon them when the idea or explicit brief requires it.",
+      "origin": "original_project_authored",
+      "performance_status": "not_empirically_validated"
+    },
+    {
+      "id": "T21",
+      "title": "Progress with an open question",
+      "goals": [
+        "trust"
+      ],
+      "audiences": [
+        "founder",
+        "engineer",
+        "designer"
+      ],
+      "pillars": [
+        "product",
+        "technology"
+      ],
+      "required_evidence": [
+        "artifact",
+        "decision"
+      ],
+      "opening_type": "progress",
+      "opening_instruction": "Show one current piece of work and what remains unresolved.",
+      "beats": [
+        "State the problem being explored.",
+        "Describe what the artifact currently demonstrates.",
+        "Explain the remaining limitation or decision.",
+        "Name the next test without predicting its result."
+      ],
+      "ending": "Ask for feedback on one real uncertainty.",
+      "avoid": "A preview is not a released feature or evidence of customer adoption.",
+      "example_ids": [
+        "E09"
+      ],
+      "voice_adaptation": "Use the client's supported vocabulary, rhythm and stance. Beats are reasoning steps, not mandatory paragraphs; shorten, reorder or abandon them when the idea or explicit brief requires it.",
+      "origin": "original_project_authored",
+      "performance_status": "not_empirically_validated"
+    },
+    {
+      "id": "T22",
+      "title": "An opinion changed by evidence",
+      "goals": [
+        "trust"
+      ],
+      "audiences": [
+        "leader",
+        "consultant",
+        "founder"
+      ],
+      "pillars": [
+        "strategy",
+        "career"
+      ],
+      "required_evidence": [
+        "personal_story",
+        "research"
+      ],
+      "opening_type": "changed_mind",
+      "opening_instruction": "State a real prior belief and the evidence that challenged it.",
+      "beats": [
+        "Represent the old belief fairly.",
+        "Identify the source or experience that changed the judgment.",
+        "Explain the revised view and remaining limits.",
+        "Show what the client now does differently, if verified."
+      ],
+      "ending": "Invite a relevant counterexample.",
+      "avoid": "No invented conversion story or exaggerated certainty about the new belief.",
+      "example_ids": [
+        "E10"
+      ],
+      "voice_adaptation": "Use the client's supported vocabulary, rhythm and stance. Beats are reasoning steps, not mandatory paragraphs; shorten, reorder or abandon them when the idea or explicit brief requires it.",
+      "origin": "original_project_authored",
+      "performance_status": "not_empirically_validated"
+    },
+    {
+      "id": "T23",
+      "title": "Reintroduce through working principles",
+      "goals": [
+        "trust"
+      ],
+      "audiences": [
+        "founder",
+        "consultant",
+        "marketer"
+      ],
+      "pillars": [
+        "career",
+        "positioning"
+      ],
+      "required_evidence": [
+        "personal_story",
+        "opinion"
+      ],
+      "opening_type": "reintroduction",
+      "opening_instruction": "Explain what the author works on and why it matters to this audience.",
+      "beats": [
+        "Choose a few verified experiences relevant to the reader.",
+        "Connect them to current working principles.",
+        "Describe the useful topics readers can expect.",
+        "Give a low-pressure point of connection."
+      ],
+      "ending": "Invite a substantive introduction, or close on the purpose.",
+      "avoid": "Do not invent a milestone or copy another author's biography.",
+      "example_ids": [
+        "E08"
+      ],
+      "voice_adaptation": "Use the client's supported vocabulary, rhythm and stance. Beats are reasoning steps, not mandatory paragraphs; shorten, reorder or abandon them when the idea or explicit brief requires it.",
+      "origin": "original_project_authored",
+      "performance_status": "not_empirically_validated"
+    },
+    {
+      "id": "T24",
+      "title": "A supported disagreement",
+      "goals": [
+        "trust"
+      ],
+      "audiences": [
+        "leader",
+        "engineer",
+        "founder"
+      ],
+      "pillars": [
+        "leadership",
+        "product"
+      ],
+      "required_evidence": [
+        "personal_story",
+        "opinion"
+      ],
+      "opening_type": "disagreement",
+      "opening_instruction": "Introduce a real disagreement without vilifying the other person.",
+      "beats": [
+        "Describe the competing priorities without invented quotations.",
+        "Explain how the discussion influenced the work.",
+        "Separate any observed outcome from interpretation.",
+        "State the working principle the client takes from it."
+      ],
+      "ending": "Close on the principle rather than a manufactured moral.",
+      "avoid": "Get permission for identifiable colleagues and private discussions.",
+      "example_ids": [
+        "E12"
+      ],
+      "voice_adaptation": "Use the client's supported vocabulary, rhythm and stance. Beats are reasoning steps, not mandatory paragraphs; shorten, reorder or abandon them when the idea or explicit brief requires it.",
+      "origin": "original_project_authored",
+      "performance_status": "not_empirically_validated"
+    },
+    {
+      "id": "T25",
+      "title": "A difficult decision handled carefully",
+      "goals": [
+        "trust"
+      ],
+      "audiences": [
+        "leader",
+        "operator",
+        "consultant"
+      ],
+      "pillars": [
+        "leadership",
+        "career"
+      ],
+      "required_evidence": [
+        "process",
+        "opinion"
+      ],
+      "opening_type": "difficult_decision",
+      "opening_instruction": "Name a difficult recurring decision the author is qualified to discuss.",
+      "beats": [
+        "Explain why the decision may be necessary.",
+        "Describe the impact on affected people.",
+        "Offer concrete communication or ownership practices.",
+        "Distinguish the decision from how it is handled."
+      ],
+      "ending": "End with a humane, actionable responsibility.",
+      "avoid": "Do not claim a specific employee story or outcome without permission.",
+      "example_ids": [
+        "E16"
+      ],
+      "voice_adaptation": "Use the client's supported vocabulary, rhythm and stance. Beats are reasoning steps, not mandatory paragraphs; shorten, reorder or abandon them when the idea or explicit brief requires it.",
+      "origin": "original_project_authored",
+      "performance_status": "not_empirically_validated"
+    },
+    {
+      "id": "T26",
+      "title": "Goal with uncertainty intact",
+      "goals": [
+        "trust"
+      ],
+      "audiences": [
+        "founder",
+        "consultant",
+        "creator"
+      ],
+      "pillars": [
+        "career",
+        "strategy"
+      ],
+      "required_evidence": [
+        "decision",
+        "opinion"
+      ],
+      "opening_type": "intention",
+      "opening_instruction": "State a genuine future goal explicitly as an intention.",
+      "beats": [
+        "Explain the reason for choosing it.",
+        "Name the actions within the author's control.",
+        "Identify assumptions or dependencies.",
+        "Define the next checkpoint."
+      ],
+      "ending": "Invite relevant learning rather than applause.",
+      "avoid": "Targets are not achieved revenue, forecasts or guarantees.",
+      "example_ids": [
+        "E18"
+      ],
+      "voice_adaptation": "Use the client's supported vocabulary, rhythm and stance. Beats are reasoning steps, not mandatory paragraphs; shorten, reorder or abandon them when the idea or explicit brief requires it.",
+      "origin": "original_project_authored",
+      "performance_status": "not_empirically_validated"
+    },
+    {
+      "id": "T27",
+      "title": "Who this offer fits",
+      "goals": [
+        "demand"
+      ],
+      "audiences": [
+        "agency_owner",
+        "consultant",
+        "founder"
+      ],
+      "pillars": [
+        "customer_experience",
+        "positioning"
+      ],
+      "required_evidence": [
+        "offer",
+        "process"
+      ],
+      "opening_type": "fit_condition",
+      "opening_instruction": "Describe the situation in which this specific offer may be useful.",
+      "beats": [
+        "Give observable fit signals without diagnosing every reader.",
+        "Explain the actual inputs and the work included.",
+        "Name the deliverable and what falls outside scope.",
+        "Invite a fit conversation through an authorized real route."
+      ],
+      "ending": "Use one modest next step; no urgency without evidence.",
+      "avoid": "Do not create outcomes, capacity limits, prices or features absent from the offer.",
+      "example_ids": [
+        "E14"
+      ],
+      "voice_adaptation": "Use the client's supported vocabulary, rhythm and stance. Beats are reasoning steps, not mandatory paragraphs; shorten, reorder or abandon them when the idea or explicit brief requires it.",
+      "origin": "original_project_authored",
+      "performance_status": "not_empirically_validated"
+    },
+    {
+      "id": "T28",
+      "title": "Show one useful mechanism",
+      "goals": [
+        "demand"
+      ],
+      "audiences": [
+        "founder",
+        "operator",
+        "marketer"
+      ],
+      "pillars": [
+        "product",
+        "operations"
+      ],
+      "required_evidence": [
+        "product",
+        "process"
+      ],
+      "opening_type": "mechanism",
+      "opening_instruction": "Describe a real task the product can support.",
+      "beats": [
+        "Identify the user's starting point.",
+        "Explain one documented capability in sequence.",
+        "Clarify the human decision or dependency around it.",
+        "Connect the mechanism to fit rather than guaranteed outcomes."
+      ],
+      "ending": "Offer a real demo or fit discussion if available.",
+      "avoid": "No invented integration, test, speed or customer result.",
+      "example_ids": [
+        "E09"
+      ],
+      "voice_adaptation": "Use the client's supported vocabulary, rhythm and stance. Beats are reasoning steps, not mandatory paragraphs; shorten, reorder or abandon them when the idea or explicit brief requires it.",
+      "origin": "original_project_authored",
+      "performance_status": "not_empirically_validated"
+    },
+    {
+      "id": "T29",
+      "title": "Answer an offer objection",
+      "goals": [
+        "demand"
+      ],
+      "audiences": [
+        "consultant",
+        "marketer",
+        "agency_owner"
+      ],
+      "pillars": [
+        "positioning",
+        "customer_experience"
+      ],
+      "required_evidence": [
+        "offer",
+        "question"
+      ],
+      "opening_type": "objection",
+      "opening_instruction": "Introduce a genuine concern in a buyer's decision.",
+      "beats": [
+        "Acknowledge when the concern is reasonable.",
+        "Explain the offer's relevant mechanism or boundary.",
+        "Say what evidence is available and what is missing.",
+        "Clarify for whom the offer remains suitable."
+      ],
+      "ending": "Invite the reader to check the specific concern.",
+      "avoid": "Do not invent customer quotes, demand or proof.",
+      "example_ids": [
+        "E04",
+        "E14"
+      ],
+      "voice_adaptation": "Use the client's supported vocabulary, rhythm and stance. Beats are reasoning steps, not mandatory paragraphs; shorten, reorder or abandon them when the idea or explicit brief requires it.",
+      "origin": "original_project_authored",
+      "performance_status": "not_empirically_validated"
+    },
+    {
+      "id": "T30",
+      "title": "Available today",
+      "goals": [
+        "demand"
+      ],
+      "audiences": [
+        "founder",
+        "marketer",
+        "creator"
+      ],
+      "pillars": [
+        "product",
+        "positioning"
+      ],
+      "required_evidence": [
+        "offer",
+        "product"
+      ],
+      "opening_type": "availability",
+      "opening_instruction": "Announce a real released offer with a clear audience and job.",
+      "beats": [
+        "State what is available and the actual next action.",
+        "Explain the problem it addresses.",
+        "Describe included scope and an important limitation.",
+        "Keep planned improvements explicitly separate."
+      ],
+      "ending": "Provide the authorized access or purchase route.",
+      "avoid": "No fake launch, waitlist size, scarcity or release date.",
+      "example_ids": [
+        "E06"
+      ],
+      "voice_adaptation": "Use the client's supported vocabulary, rhythm and stance. Beats are reasoning steps, not mandatory paragraphs; shorten, reorder or abandon them when the idea or explicit brief requires it.",
+      "origin": "original_project_authored",
+      "performance_status": "not_empirically_validated"
+    },
+    {
+      "id": "T31",
+      "title": "Resource with immediate value",
+      "goals": [
+        "demand"
+      ],
+      "audiences": [
+        "consultant",
+        "marketer",
+        "creator"
+      ],
+      "pillars": [
+        "research",
+        "operations"
+      ],
+      "required_evidence": [
+        "resource",
+        "process"
+      ],
+      "opening_type": "useful_resource",
+      "opening_instruction": "Name a real resource and the question it helps answer.",
+      "beats": [
+        "Teach one useful idea directly in the post.",
+        "Explain what the resource adds.",
+        "Describe who should use it and any prerequisites.",
+        "Offer the genuine access route and disclose capture requirements."
+      ],
+      "ending": "Use a real link or permitted route; do not require fake comment bait.",
+      "avoid": "A resource must exist before claiming it is downloadable.",
+      "example_ids": [
+        "E22"
+      ],
+      "voice_adaptation": "Use the client's supported vocabulary, rhythm and stance. Beats are reasoning steps, not mandatory paragraphs; shorten, reorder or abandon them when the idea or explicit brief requires it.",
+      "origin": "original_project_authored",
+      "performance_status": "not_empirically_validated"
+    },
+    {
+      "id": "T32",
+      "title": "Clarify the scope before the call",
+      "goals": [
+        "demand"
+      ],
+      "audiences": [
+        "consultant",
+        "agency_owner"
+      ],
+      "pillars": [
+        "customer_experience",
+        "operations"
+      ],
+      "required_evidence": [
+        "offer"
+      ],
+      "opening_type": "scope",
+      "opening_instruction": "State the buyer decision this service is designed to support.",
+      "beats": [
+        "Name the actual deliverable.",
+        "Explain what inputs or participation are needed.",
+        "Draw the boundary around implementation or follow-on work.",
+        "Describe a useful fit check."
+      ],
+      "ending": "Offer a low-pressure scope conversation.",
+      "avoid": "Do not imply that a review includes execution or promised business results.",
+      "example_ids": [
+        "E14",
+        "E02"
+      ],
+      "voice_adaptation": "Use the client's supported vocabulary, rhythm and stance. Beats are reasoning steps, not mandatory paragraphs; shorten, reorder or abandon them when the idea or explicit brief requires it.",
+      "origin": "original_project_authored",
+      "performance_status": "not_empirically_validated"
+    },
+    {
+      "id": "T33",
+      "title": "Teach then invite",
+      "goals": [
+        "demand"
+      ],
+      "audiences": [
+        "consultant",
+        "marketer",
+        "creator"
+      ],
+      "pillars": [
+        "operations",
+        "positioning"
+      ],
+      "required_evidence": [
+        "process",
+        "offer"
+      ],
+      "opening_type": "teaching",
+      "opening_instruction": "Give a useful process insight before mentioning the relevant offer.",
+      "beats": [
+        "Explain the audience problem.",
+        "Teach one complete check or action.",
+        "Show how the offer extends that work.",
+        "Invite only the reader for whom the extension is relevant."
+      ],
+      "ending": "One clear invitation after standalone value.",
+      "avoid": "Avoid hiding the answer to force a click or copying event outcomes.",
+      "example_ids": [
+        "E07",
+        "E22"
+      ],
+      "voice_adaptation": "Use the client's supported vocabulary, rhythm and stance. Beats are reasoning steps, not mandatory paragraphs; shorten, reorder or abandon them when the idea or explicit brief requires it.",
+      "origin": "original_project_authored",
+      "performance_status": "not_empirically_validated"
+    },
+    {
+      "id": "T34",
+      "title": "A buying decision without a pitch",
+      "goals": [
+        "demand"
+      ],
+      "audiences": [
+        "founder",
+        "consultant",
+        "agency_owner"
+      ],
+      "pillars": [
+        "positioning",
+        "strategy"
+      ],
+      "required_evidence": [
+        "offer",
+        "reasoning"
+      ],
+      "opening_type": "buying_criteria",
+      "opening_instruction": "Frame the decision a buyer should make before choosing a solution.",
+      "beats": [
+        "Define the job and constraints.",
+        "Offer neutral evaluation criteria.",
+        "Explain where the client's actual offer fits.",
+        "Recognize the case for doing nothing or choosing another route."
+      ],
+      "ending": "Invite evaluation using those criteria.",
+      "avoid": "Do not fabricate competitor comparisons or pretend the author has no commercial interest.",
+      "example_ids": [
+        "E06",
+        "E03"
+      ],
+      "voice_adaptation": "Use the client's supported vocabulary, rhythm and stance. Beats are reasoning steps, not mandatory paragraphs; shorten, reorder or abandon them when the idea or explicit brief requires it.",
+      "origin": "original_project_authored",
+      "performance_status": "not_empirically_validated"
+    },
+    {
+      "id": "T35",
+      "title": "One precise reader question",
+      "goals": [
+        "conversation"
+      ],
+      "audiences": [
+        "any"
+      ],
+      "pillars": [
+        "any"
+      ],
+      "required_evidence": [
+        "reasoning"
+      ],
+      "opening_type": "specific_question",
+      "opening_instruction": "Ask about one observable decision or practice, not a vague opinion poll.",
+      "beats": [
+        "Explain why the question matters.",
+        "Offer a bounded illustrative situation.",
+        "State what kind of answer would be useful.",
+        "Keep the invitation optional and specific."
+      ],
+      "ending": "Ask a single answerable question.",
+      "avoid": "Do not invent community interest or claim replies will receive an unbuilt resource.",
+      "example_ids": [
+        "E23"
+      ],
+      "voice_adaptation": "Use the client's supported vocabulary, rhythm and stance. Beats are reasoning steps, not mandatory paragraphs; shorten, reorder or abandon them when the idea or explicit brief requires it.",
+      "origin": "original_project_authored",
+      "performance_status": "not_empirically_validated"
+    },
+    {
+      "id": "T36",
+      "title": "Invite a counterexample",
+      "goals": [
+        "conversation"
+      ],
+      "audiences": [
+        "analyst",
+        "leader",
+        "consultant"
+      ],
+      "pillars": [
+        "research",
+        "strategy"
+      ],
+      "required_evidence": [
+        "opinion",
+        "reasoning"
+      ],
+      "opening_type": "bounded_claim",
+      "opening_instruction": "State a provisional client-supported view with a clear boundary.",
+      "beats": [
+        "Explain the reasoning in accessible terms.",
+        "Describe where the view seems useful.",
+        "Name the evidence that would change it.",
+        "Invite a concrete counterexample."
+      ],
+      "ending": "Ask for the missing context, not generic agreement.",
+      "avoid": "Do not label a personal view scientific consensus.",
+      "example_ids": [
+        "E12",
+        "E23"
+      ],
+      "voice_adaptation": "Use the client's supported vocabulary, rhythm and stance. Beats are reasoning steps, not mandatory paragraphs; shorten, reorder or abandon them when the idea or explicit brief requires it.",
+      "origin": "original_project_authored",
+      "performance_status": "not_empirically_validated"
+    },
+    {
+      "id": "T37",
+      "title": "Discuss a real tradeoff",
+      "goals": [
+        "conversation"
+      ],
+      "audiences": [
+        "founder",
+        "operator",
+        "leader"
+      ],
+      "pillars": [
+        "product",
+        "operations"
+      ],
+      "required_evidence": [
+        "decision"
+      ],
+      "opening_type": "live_tradeoff",
+      "opening_instruction": "Describe a current real decision the author can discuss publicly.",
+      "beats": [
+        "Give the relevant constraints.",
+        "Explain two plausible options and their costs.",
+        "State the current preference if known.",
+        "Ask for experience with one unresolved aspect."
+      ],
+      "ending": "Ask for experience, not a vote on private client information.",
+      "avoid": "No fabricated urgency or disclosure of confidential roadmap details.",
+      "example_ids": [
+        "E09"
+      ],
+      "voice_adaptation": "Use the client's supported vocabulary, rhythm and stance. Beats are reasoning steps, not mandatory paragraphs; shorten, reorder or abandon them when the idea or explicit brief requires it.",
+      "origin": "original_project_authored",
+      "performance_status": "not_empirically_validated"
+    },
+    {
+      "id": "T38",
+      "title": "Connect an attributed idea",
+      "goals": [
+        "conversation"
+      ],
+      "audiences": [
+        "creator",
+        "consultant",
+        "leader"
+      ],
+      "pillars": [
+        "leadership",
+        "strategy"
+      ],
+      "required_evidence": [
+        "research",
+        "opinion"
+      ],
+      "opening_type": "attributed_idea",
+      "opening_instruction": "Attribute an idea or conversation before adding the client's response.",
+      "beats": [
+        "Name and link the source accurately.",
+        "Paraphrase only the relevant idea.",
+        "Add the client's own supported question or interpretation.",
+        "Invite discussion of the implication."
+      ],
+      "ending": "Ask about one practical application.",
+      "avoid": "Do not claim the client interviewed the guest or originated the idea.",
+      "example_ids": [
+        "E13",
+        "E24"
+      ],
+      "voice_adaptation": "Use the client's supported vocabulary, rhythm and stance. Beats are reasoning steps, not mandatory paragraphs; shorten, reorder or abandon them when the idea or explicit brief requires it.",
+      "origin": "original_project_authored",
+      "performance_status": "not_empirically_validated"
+    },
+    {
+      "id": "T39",
+      "title": "A relevant recommendation",
+      "goals": [
+        "conversation"
+      ],
+      "audiences": [
+        "marketer",
+        "consultant",
+        "creator"
+      ],
+      "pillars": [
+        "positioning",
+        "research"
+      ],
+      "required_evidence": [
+        "resource",
+        "reasoning"
+      ],
+      "opening_type": "curation",
+      "opening_instruction": "Start with a reader problem that a short resource list can help address.",
+      "beats": [
+        "Explain the selection criterion.",
+        "Give a small set of verified resources with one reason each.",
+        "State how to choose a starting point.",
+        "Disclose relevant commercial relationships if known."
+      ],
+      "ending": "Suggest one first resource or a specific missing category.",
+      "avoid": "Check links and claims; do not invent personal use or endorsements.",
+      "example_ids": [
+        "E19"
+      ],
+      "voice_adaptation": "Use the client's supported vocabulary, rhythm and stance. Beats are reasoning steps, not mandatory paragraphs; shorten, reorder or abandon them when the idea or explicit brief requires it.",
+      "origin": "original_project_authored",
+      "performance_status": "not_empirically_validated"
+    },
+    {
+      "id": "T40",
+      "title": "Clarify what a claim means",
+      "goals": [
+        "conversation"
+      ],
+      "audiences": [
+        "analyst",
+        "marketer",
+        "engineer"
+      ],
+      "pillars": [
+        "research",
+        "technology"
+      ],
+      "required_evidence": [
+        "research"
+      ],
+      "opening_type": "clarification",
+      "opening_instruction": "Identify a documented claim whose scope needs clarification.",
+      "beats": [
+        "Attribute the exact question at issue without excessive quotation.",
+        "Explain the terms or measurements involved.",
+        "Separate supported conclusions from open questions.",
+        "Point readers to the primary source or a specific unresolved question."
+      ],
+      "ending": "Invite informed questions about the stated scope.",
+      "avoid": "Do not reuse another study's numbers as client results or conceal uncertainty.",
+      "example_ids": [
+        "E20",
+        "E21"
+      ],
+      "voice_adaptation": "Use the client's supported vocabulary, rhythm and stance. Beats are reasoning steps, not mandatory paragraphs; shorten, reorder or abandon them when the idea or explicit brief requires it.",
+      "origin": "original_project_authored",
+      "performance_status": "not_empirically_validated"
+    }
+  ]
+}

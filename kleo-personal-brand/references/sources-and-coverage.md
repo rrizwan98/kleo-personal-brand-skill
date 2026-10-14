@@ -30,6 +30,7 @@ Research date: 2026-10-13. These links informed the design; they are not depende
 | Capture inspiration | User links/browser research + swipe-pattern records | Included; no extension installed |
 | Content strategy and ideas | Positioning, pillars, purposes, editorial queue and calendar | Included; original methodology |
 | Draft/edit/repurpose | Post briefs, adaptable structures, voice/claim checks | Included |
+| Curated templates and examples | 40 original cards, 24 linked public-post analyses, local evidence-aware selector | Included from v1.1.0; original pilot, not Kleo's proprietary library or verified growth formulas |
 | Generate visuals | Conditional image/design integration | Tool dependent |
 | Carousel/lead magnet assets | Conditional asset workflow | Additional capability; not native Kleo parity |
 | Schedule/publish | Authorized connector/browser flow and receipt | Account/tool dependent |
@@ -43,3 +44,5 @@ Research date: 2026-10-13. These links informed the design; they are not depende
 Official pages were inconsistent about extra profiles, X scheduling, refunds and some offer dates. Mobile/Activities labels lacked enough detail to establish implementation. None of those claims are used as unconditional capability promises here. No exact model, fine-tuning process, hidden prompt, ranking algorithm or automatic analytics-to-strategy loop was verified.
 
 The skill adds inspectable memory, client isolation, an editorial rubric, attribution checks and measurement procedures as its own implementation. It is not endorsed by Kleo and cannot claim an 85% match without a matched output benchmark.
+
+The library's separate observation date is 2026-10-14. Its public sources and per-source limits are in [the index](../library/INDEX.md) and [example cards](../library/examples.json). These posts were selected for visible structure, not proven performance or Kleo authorship. No third-party template-vault content is included.

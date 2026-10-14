@@ -6,9 +6,10 @@
 |---|---|
 | `v0` | Retrospectively written initial design specification; no executable skill |
 | `v1.0.0` | Reconstructed initial implementation, with the exact reconstruction method documented in its spec |
-| `v1.0.1` | Current implementation imported from the local source package; writing-guide refinement |
+| `v1.0.1` | Preserved implementation imported from the local source package; writing-guide refinement |
+| `v1.1.0` | Compatible curated-library addition, with newly recorded implementation and evaluation artifacts |
 
-These commits were created while preparing this repository. Dates were not backdated. A reconstruction is not presented as a preserved original commit.
+The v0 through v1.0.1 commits were created while preparing this repository. Dates were not backdated. A reconstruction is not presented as a preserved original commit. Subsequent changes are recorded as new releases; published tags are not moved.
 
 ## Reading history
 
@@ -32,4 +33,4 @@ Use patch versions for compatible corrections/refinements, minor versions for ad
 
 Generated `.zip` and `.skill` archives are ignored by Git. Build them from the checked-out tag so the contents correspond to that version.
 
-The `main` branch starts at v1.0.1. For an existing clone, `git fetch --tags` makes these checkpoints available. Specifications and changelog entries describe behavior; Git tags let you inspect the corresponding source.
+The `main` branch began at v1.0.1 and advances with new releases. For an existing clone, `git fetch --tags` makes these checkpoints available. Specifications and changelog entries describe behavior; Git tags let you inspect the corresponding source.

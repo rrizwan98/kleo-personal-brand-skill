@@ -60,6 +60,8 @@ Batch related work: collect evidence → choose angles → draft → edit → pr
 
 Avoid consecutive posts with the same hook shape, CTA, narrative arc or conclusion. Map the sequence so a reader learns something new while the positioning remains recognizable.
 
+When choosing structures for a batch, use [template-library.md](template-library.md) after the ideas and evidence are clear. Map each slot's purpose to a retrieval goal, preserve the actual client pillar, and check recent template/opening IDs. Do not create a calendar by assigning templates first and inventing stories to fill them. The index is not a required content mix or a performance ranking.
+
 ## Personal-brand development beyond posts
 
 Align the profile promise, content themes, proof and destination. A reader who clicks through should find the same expertise and a coherent next step. If the product/offer is unclear, write a specific clarification question and use supported educational angles meanwhile.

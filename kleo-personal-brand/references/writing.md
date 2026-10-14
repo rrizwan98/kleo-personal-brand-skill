@@ -22,12 +22,13 @@ Before writing, resolve:
 - Pillar, purpose and suitable format.
 - Relevant active voice rules and approved examples.
 - CTA, if one serves the purpose; no CTA is also valid.
+- For a newly selected structure: template/custom ID, required-evidence checks and any useful example IDs, kept in editorial metadata rather than public copy.
 
 If the only available material is a topic, find a defensible angle through research or an interview. Do not manufacture a first-person event to make the post compelling.
 
 ## Drafting sequence
 
-1. Choose the central idea and the evidence that supports it.
+1. Choose the central idea and the evidence that supports it. For a fresh draft or substantial rewrite, follow [template-library.md](template-library.md): retrieve at most three evidence-eligible structures, inspect at most two relevant examples and choose for audience, product, purpose and supported voice. The client brief wins over a template. Preserve a suitable structure for a minimal edit.
 2. Consider a few different openings internally: clear observation, specific problem, counterpoint, useful question, or evidenced result. Select the one that fits the author's voice and the actual body. Do not expose ten hooks unless asked.
 3. Develop the idea with reasoning, a demonstration, authentic story, comparison or actionable method. Every paragraph should advance the promise.
 4. End with a concrete takeaway, an earned question, or a relevant next step. Avoid an unrelated sales pitch or engagement bait.
@@ -49,6 +50,8 @@ A hook is a promise of relevance. Never make it stronger than the evidence. “I
 | Offer fit | Useful conversion | Audience situation → who benefits → mechanism/proof → real next step |
 
 Choose structure after the idea; do not force every post into “hook → three bullets → question.” A post can be concise or developed according to the material and author. Verify current platform limits when preparing a live post rather than relying on stale hardcoded lengths.
+
+These eight structures remain the lightweight fallback. The [curated library](../library/INDEX.md) adds 40 more detailed original cards and 24 linked public examples. Example authors do not supply the client's facts or voice. The library has no validated performance ranking; use it to improve selection and variety, not to promise reach.
 
 ## Evidence and first-person checks
 

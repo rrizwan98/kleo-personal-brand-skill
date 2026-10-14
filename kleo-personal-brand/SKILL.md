@@ -2,7 +2,7 @@
 name: kleo-personal-brand
 description: "Run Kleo/Kelo-inspired LinkedIn personal branding and ghostwriting for a founder, expert, or agency client. Understand their profile, product, audience and voice; maintain separate client memory; create positioning, content strategy, posts and performance reviews. Use for ongoing personal-brand work, LinkedIn ghostwriting, or a client's content engine."
 metadata:
-  version: "1.0.1"
+  version: "1.1.0"
   short-description: "Client-aware LinkedIn strategy and ghostwriting"
 ---
 
@@ -17,7 +17,7 @@ Operate as an executing personal-brand strategist, interviewer, ghostwriter and 
 1. **Resolve the assignment.** Identify the client, requested deliverable, output language and existing authorization from the conversation. Distinguish the account operator from the person being ghostwritten. If two clients could match, ask which one before loading personal material.
 2. **Load the client's context.** Read [client-memory.md](references/client-memory.md), then that client's `client.json`, active memory, strategy and relevant past posts. For a new client, initialize a separate workspace and read [discovery.md](references/discovery.md). Do not reuse another client's details.
 3. **Collect missing evidence.** Inspect the supplied LinkedIn profile and product site with available tools. Use an authorized browser session for profile sections accessible there; record inaccessible sections. Read relevant briefs/transcripts. Ask only for gaps that affect truth, positioning or voice; continue independent work meanwhile.
-4. **Choose a route below.** Execute the requested deliverable with the smallest sufficient context. Full-brand setup includes actual strategy and initial drafts, not just intake questions. A single-post request does not trigger a full rebrand.
+4. **Choose a route below.** Execute the requested deliverable with the smallest sufficient context. For new posts or substantial rewrites, use [template-library.md](references/template-library.md) to shortlist structures that fit the reader, goal and permitted evidence, then adapt to the client's product and voice. Keep a working structure for a minimal edit. Full-brand setup includes actual strategy and initial drafts, not just intake questions. A single-post request does not trigger a full rebrand.
 5. **Edit and evaluate.** Apply [writing.md](references/writing.md) and [quality.md](references/quality.md). Fix factual, voice, audience and repetition issues. Use at most three editorial passes; if evidence is missing, deliver the useful portion and flag the precise gap.
 6. **Deliver and remember.** Return clean, usable content in the user's requested format. Save the client's durable corrections, source records, draft IDs and next actions. Report the real state: drafted, approved, scheduled or published. Do not claim a save, profile visit or external action without a successful result.
 
@@ -28,7 +28,8 @@ Operate as an executing personal-brand strategist, interviewer, ghostwriter and 
 | Start my/client's personal brand | [discovery.md](references/discovery.md), [strategy.md](references/strategy.md) | Profile/product audit, positioning, voice v1, strategy, idea queue, initial drafts and saved context |
 | Audit/rewrite profile | [discovery.md](references/discovery.md) | Evidence-based headline, About, banner brief, Featured order and conversion path; edits are drafts unless authorized |
 | Content strategy/calendar | [strategy.md](references/strategy.md) | Audience/offer map, pillars, distinct angles, sustainable cadence, dates/timezone if scheduled, measurable experiments |
-| Write/rewrite/repurpose posts | [writing.md](references/writing.md) | Client-specific drafts grounded in evidence, selected hooks, suitable CTA and editorial check |
+| Write/rewrite/repurpose posts | [writing.md](references/writing.md), [template-library.md](references/template-library.md) when choosing a structure | Client-specific drafts, evidence-eligible template selection, original wording, suitable CTA and editorial check |
+| Find a template or study real examples | [template-library.md](references/template-library.md), then the [index](library/INDEX.md) or local selector | A bounded shortlist from 40 original templates and 24 linked public examples, with fit reasons and source limits |
 | Learn voice/remember preference | [client-memory.md](references/client-memory.md), [writing.md](references/writing.md) | Scoped preference updates and improved samples; preserve evidence/history |
 | Research trends/save inspiration | [discovery.md](references/discovery.md) | Dated, linked ideas with relevance and original angle; save patterns without copying expression |
 | Visuals/carousel/lead magnet | [publishing-analytics.md](references/publishing-analytics.md) | Appropriate asset or content/design brief through available tools; optional capability, not claimed Kleo parity |
@@ -54,6 +55,7 @@ Operate as an executing personal-brand strategist, interviewer, ghostwriter and 
 3. Do we have a specific audience, offer/job-to-be-done and current goal? Missing essentials: inspect sources, then ask for those gaps; mark provisional assumptions.
 4. Are there at least three usable client-authored samples or approved drafts? Yes: extract a supported voice guide. No: label voice provisional and calibrate on a short draft.
 5. Are the browser, file persistence, visual and scheduling tools actually available? Select supported paths; do not invent tool names or capabilities.
+6. Does the selected structure require evidence we lack, or conflict with the client's voice or product? Reject or adapt it; never fill its slots with another author's experiences. A custom structure is valid.
 
 ### Convergence
 
@@ -103,7 +105,7 @@ Operate as an executing personal-brand strategist, interviewer, ghostwriter and 
 
 ## Composition and fallbacks
 
-Sequential flow: client evidence → positioning/voice → idea brief → draft → editing → authorized delivery → measured learning.
+Sequential flow: client evidence → positioning/voice → idea brief → evidence-aware structure selection → original draft → editing → authorized delivery → measured learning.
 
 Conditional dependencies are resolved from the current environment, not from assumed tool availability:
 
@@ -123,4 +125,4 @@ Read a dependency's installed instructions before using it. Discovery or draftin
 
 The user receives the requested artifact, a short explanation of key choices and only material gaps. Keep research notes, scores and technical records out of the public post body. Save approved preferences and evidence in the correct workspace; return its location when first created. For recurring work, restore this state before drafting next time.
 
-Run `scripts/init_client.py --help` for optional deterministic workspace creation. Read [quality.md](references/quality.md) for scenario tests and the required persona, question and principle validations used to maintain this skill.
+Run `scripts/init_client.py --help` for optional deterministic workspace creation. Run `scripts/select_template.py --help` for optional local template retrieval; it ranks explicit tags and does not verify facts or generate posts. Read [quality.md](references/quality.md) for scenario tests and the required persona, question and principle validations used to maintain this skill.

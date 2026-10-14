@@ -1,6 +1,7 @@
 """Check package references and metadata; build portable archives when requested."""
 import argparse
 import ast
+import importlib.util
 import json
 import re
 import zipfile
@@ -39,9 +40,17 @@ def main():
     assert 25 <= len(metadata["interface"]["short_description"]) <= 64
     assert f"${root.name}" in metadata["interface"]["default_prompt"]
     assert metadata["policy"]["allow_implicit_invocation"] is True
+    selector_path = root / "scripts" / "select_template.py"
+    if selector_path.is_file():
+        spec = importlib.util.spec_from_file_location("package_template_selector", selector_path)
+        selector = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(selector)
+        library, examples = selector.load_library()
+        assert library["library_version"] == frontmatter["metadata"]["version"]
+        assert examples
     if errors:
         raise SystemExit("\n".join(errors))
-    report = {"result": "pass", "skill_lines": len(text.splitlines()), "package_files": len(files), "checks": ["YAML metadata", "local reference integrity", "Python syntax", "no client state in package", "entrypoint under 500 lines"]}
+    report = {"result": "pass", "skill_lines": len(text.splitlines()), "package_files": len(files), "checks": ["YAML metadata", "local reference integrity", "Python syntax", "no client state in package", "entrypoint under 500 lines", "library schema, tag vocabulary, cross-references and version"]}
     if args.build:
         archives = []
         for suffix in (".zip", ".skill"):

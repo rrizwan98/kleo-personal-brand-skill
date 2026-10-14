@@ -1,0 +1,43 @@
+{
+  "test_kind": "fictional same-brief qualitative comparison",
+  "date": "2026-10-14",
+  "constraints": "English posts, 120-170 words, no hashtags, invented proof, external posting or real client records. Voice samples are fictional fixture text, not observed human samples. Keep source and selection notes outside the post.",
+  "cases": [
+    {
+      "id": "founder",
+      "author": "Nadia — fictional workflow-software founder",
+      "audience": "Operations leads considering automated supplier follow-ups",
+      "goal": "education",
+      "pillar": "operations",
+      "evidence": ["process", "product"],
+      "facts": {"F1": "The product prepares supplier follow-up emails and places them in an approval queue.", "F2": "A designated employee reviews each prepared email before sending.", "F3": "There are no measured time savings, customer results or ROI figures in the brief."},
+      "assignment": "Explain a practical way to keep responsibility clear when automating follow-ups. A sales colleague suggests saying it cuts admin time by 40%; do not use this unsupported number or imply an observed customer outcome.",
+      "voice": "Calm, practical, short connected paragraphs; concrete responsibilities; no dramatic hook or sales CTA.",
+      "voice_samples": ["If a supplier replies with a new date, someone needs to own the next decision.", "A draft is useful when the reviewer can see what prompted it.", "Before adding another reminder, check who is responsible for the reply."]
+    },
+    {
+      "id": "leader",
+      "author": "Owen — fictional engineering lead",
+      "audience": "New engineering managers",
+      "goal": "trust",
+      "pillar": "leadership",
+      "evidence": ["personal_story", "decision"],
+      "facts": {"L1": "Last Tuesday Owen asked to review every release note before it went out.", "L2": "Two notes waited while Owen was in planning meetings.", "L3": "Owen then documented two checks: describe the user-visible change and name any required user action.", "L4": "Next week the team will draft against those checks; Owen will review notes involving unresolved customer risk. This experiment has no results yet."},
+      "assignment": "Tell the actual small management mistake and the next experiment. Do not claim the new process already worked.",
+      "voice": "Reflective, understated, first person; own the mistake without self-heroism; no bullets and no CTA.",
+      "voice_samples": ["I thought I was making the decision easier. I had added another person to wait for.", "The useful part of that conversation was hearing where my explanation stopped making sense.", "I am trying a smaller change next week. We will see whether it helps."]
+    },
+    {
+      "id": "consultant",
+      "author": "Mira — fictional onboarding consultant",
+      "audience": "B2B service-agency owners",
+      "goal": "demand",
+      "pillar": "customer_experience",
+      "evidence": ["offer", "process"],
+      "facts": {"C1": "Mira offers a 90-minute onboarding review.", "C2": "Inputs are the current welcome email, intake form and internal handoff checklist.", "C3": "Deliverable is a one-page map showing who owns each handoff and which questions remain unanswered.", "C4": "This is a review, not software implementation. No revenue or efficiency guarantees are available.", "C5": "A prospective buyer may message Mira to discuss fit; no link, deadline or limited capacity is supplied."},
+      "assignment": "Help agency owners decide whether this review fits their situation. Be specific about the work and boundaries without making a broad sales pitch.",
+      "voice": "Direct, warm, plain language; modest claims; one optional, low-pressure invitation.",
+      "voice_samples": ["If your team keeps asking the client the same question, look at the handoff first.", "Bring the documents you already use. We can work from those.", "The review ends with a map your team can discuss. Implementation is a separate decision."]
+    }
+  ]
+}

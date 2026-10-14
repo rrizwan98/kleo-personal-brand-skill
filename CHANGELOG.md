@@ -2,9 +2,21 @@
 
 Versions describe the reusable skill, not individual client workspaces. Repository history was created on 2026-10-13; the provenance notes below distinguish retrospective records from preserved source.
 
+## 1.1.0 — 2026-10-14
+
+- Add 40 original template cards with audience, goal, pillar, evidence, development and misuse guidance.
+- Add 24 dated public-post reference cards across eight authors, containing direct links and original structural notes rather than copied post bodies or verified-performance claims.
+- Add a local read-only selector with evidence filtering, explicit tag-fit reasons, bounded results and recent-use penalties; document a manual fallback.
+- Connect selection to the client's actual product, audience, voice and brief. Preserve user-provided structures, minimal edits and supported custom structures.
+- Add optional selection metadata without changing existing client-state requirements.
+- Retain three same-brief baseline/updated draft pairs and a limited qualitative self-review; no independent or live-Kleo comparison is claimed.
+- No third-party template vault was imported. Publishing, analytics and extension capabilities remain host-dependent.
+
+See [v1.1.0 specification](specs/v1.1.0.md) and [comparison](evals/v1.1.0/comparison.md).
+
 ## 1.0.1 — 2026-10-13
 
-**Current implementation imported from the tested local skill.**
+**Preserved earlier implementation imported from the tested local skill.**
 
 - Focus news-led posts on one reader-relevant implication and connected narrative beats.
 - Keep required attribution/uncertainty while moving research-process details into editorial notes.
